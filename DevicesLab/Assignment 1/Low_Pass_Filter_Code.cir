@@ -1,0 +1,26 @@
+Low Pass Filter
+
+*This code simulates a Low Pass filter with cutoff frequency as 48000Hz
+
+*Low Pass filter components-
+R1 1 2 3.316
+C1 2 0 1u
+
+*Voltage Source-
+Vin 1 0 dc 0 ac 1
+
+*Control Block-
+.control
+
+*Sweep Settings-
+ac dec 10 1 100Meg
+
+*Color Settings-
+set color0 = white
+set color1 = black
+set color2 = blue
+
+*Plot Command-
+plot vdb(2) xlog ylabel 'Gain (dB)'
+
+.endc
