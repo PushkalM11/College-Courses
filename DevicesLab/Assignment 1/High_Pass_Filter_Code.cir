@@ -2,7 +2,7 @@ High Pass Filter
 
 *This code simulates a High Pass filter with cutoff frequency as 58Hz
 
-*High Pass filter components-1
+*High Pass filter components-
 C1 1 2 2.744u 
 R1 2 0 1k
 
