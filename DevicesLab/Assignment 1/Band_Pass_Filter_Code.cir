@@ -19,7 +19,7 @@ Vin 1 0 dc 0 ac 1
 .control
 
 *Sweep Settings-
-ac dec 10 0.1 10Meg
+ac dec 10 1 10Meg
 
 *Color Settings-
 set color0 = white
