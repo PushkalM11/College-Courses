@@ -1,6 +1,6 @@
 Band Pass Filter
 
-*This code simulates a Band Bass filter using-
+*This code simulates a Band Pass filter using-
 *A Low Pass filter and a High Pass filter in series.
 *The cutoff frequencies are 58Hz and 48000Hz
 
