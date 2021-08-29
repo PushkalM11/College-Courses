@@ -3,7 +3,7 @@ Band Stop Filter
 *This code simulates a Band Stop filter using-
 *Low Pass filter and High Pass filter in parallel onfiguration with a correction.
 *Correction is required because-
-*For High pass filter in low frequency range the output voltage is very low, so a capacitor(having a very high impedance) is added in series. 
+*For High pass filter in low frequency range the output voltage is very low, so a capacitor(having a very high impedance at low frequencies) is added in series. 
 *And for Low Pass filter in high frequency range the output voltage is very low, so a resistor is added in series.
 
 *Low Pass filter components with cutoff frequency as 58Hz-
