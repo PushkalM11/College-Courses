@@ -1,6 +1,10 @@
 Band Stop Filter
 
-*This code simulates a Band Stop filter.
+*This code simulates a Band Stop filter using-
+*Low Pass filter and High Pass filter in parallel onfiguration with a correction.
+*Correction is required because-
+*For High pass filter in low frequency range the output voltage is very low, so a capacitor(having a very high impedance) is added in series. 
+*And for Low Pass filter in high frequency range the output voltage is very low, so a resistor is added in series.
 
 *Low Pass filter components with cutoff frequency as 58Hz-
 R1 1 2 1k
@@ -14,7 +18,7 @@ R2 3 0 3.316
 R3 2 4 10k
 
 *Correction for High Pass filter-
-C3 3 4 10u
+C3 3 4 0.01u
 
 *Voltage Source-
 Vin 1 0 dc 0 ac 1
@@ -23,7 +27,7 @@ Vin 1 0 dc 0 ac 1
 .control
 
 *Sweep Settings-
-ac dec 10 1 10Meg
+ac dec 10 0.01 10Meg
 
 *Color Settings-
 set color0 = white
