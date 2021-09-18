@@ -25,7 +25,7 @@ VDC 3 4 dc 12
 .control
 
 *Transient Analysis Settings-
-tran 1ms 1s
+tran 1ms 200ms
 
 *Color Settings-
 set color0 = white
@@ -36,6 +36,6 @@ set color2 = blue
 plot v(1) v(3)-V(4) xlabel 'Time (in s)' ylabel 'Voltage (in V)'
 
 *Plot Command for Current-
-plot i(VDC) xlabel 'Time (in s)' ylabel 'Current (in A)'
+plot v(1) 10*i(VDC) xlabel 'Time (in s)' ylabel 'Current (in A)'
     
 .endc
