@@ -20,9 +20,6 @@ D4 3 1 DMOD
 *Resistance connection-
 R1 2 4 1k
 
-*Capacitance for Stability-
-C1 2 3 100u
-
 *Model for Battery
 VDC 4 3 dc 12
 
