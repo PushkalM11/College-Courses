@@ -6,7 +6,7 @@ Full Wave Rectifier
 *Voltage Source-
 V1 1 0 sin(0, 20, 50, 0, 0)
 
-*Diode Components connection-
+*Diode Model Declaration-
 .model DMOD D
 
 *Connection for Forward Bias-
