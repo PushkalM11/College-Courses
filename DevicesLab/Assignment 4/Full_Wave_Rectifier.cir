@@ -4,7 +4,7 @@ Full Wave Rectifier
 *Four diodes and a resistor
 
 *Voltage Source-
-V1 1 0 sin(0, 20, 50, 0, 0)
+V1 1 0 sin(0, 34.7, 50, 0, 0)
 
 *Diode Model Declaration-
 .model DMOD D
@@ -18,7 +18,7 @@ D3 0 2 DMOD
 D4 3 1 DMOD
 
 *Resistance connection-
-R1 2 4 1k
+R1 2 4 177.5
 
 *Model for Battery
 VDC 4 3 dc 12
@@ -27,7 +27,7 @@ VDC 4 3 dc 12
 .control
 
 *Transient Analysis Settings-
-tran 1ms 200ms
+tran 1ms 20ms
 
 *Color Settings-
 set color0 = white
@@ -35,9 +35,12 @@ set color1 = black
 set color2 = blue
 
 *Plot Command for Voltage-
-plot v(1) v(2)-V(3) xlabel 'Time (in s)' ylabel 'Voltage (in V)'
+plot v(1) v(2)-V(3) xlabel 'Time (in ms)' ylabel 'Voltage (in V)'
 
 *Plot Command for Current-
-plot v(1) 10*i(VDC) xlabel 'Time (in s)' ylabel 'Current (in A)'
-    
+plot i(VDC) xlabel 'Time (in ms)' ylabel 'Current (in mA)'
+
+*Plot Command for Current and Voltage
+plot v(2)-v(3) 10*i(VDC) xlabel 'Time (in ms)'
+
 .endc
