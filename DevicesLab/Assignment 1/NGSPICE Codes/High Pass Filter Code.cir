@@ -1,0 +1,26 @@
+High Pass Filter
+
+*This code simulates a High Pass filter with cutoff frequency as 58Hz
+
+*High Pass filter components-
+C1 1 2 2.744u 
+R1 2 0 1k
+
+*Voltage Source-
+Vin 1 0 dc 0 ac 1
+
+*Control Block-
+.control
+
+*Sweep Settings-
+ac dec 10 1 100Meg
+
+*Color Settings-
+set color0 = white
+set color1 = black
+set color2 = blue
+
+*Plot Command-
+plot vdb(2) xlog ylabel 'Gain (dB)'
+
+.endc
