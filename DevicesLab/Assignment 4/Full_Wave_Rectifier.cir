@@ -27,12 +27,15 @@ VDC 4 3 dc 12
 .control
 
 *Transient Analysis Settings-
-tran 1ms 20ms
+tran 50us 20ms
 
 *Color Settings-
 set color0 = white
 set color1 = black
 set color2 = blue
+
+*Brushwidth Command-
+set xbrushwidth = 3
 
 *Plot Command for Voltage-
 plot v(1) v(2)-V(3) xlabel 'Time (in ms)' ylabel 'Voltage (in V)'
