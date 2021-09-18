@@ -1,6 +1,6 @@
 Full Wave Rectifier
 
-*This code simulates a full wave bridge rectifier using-
+*This code simulates a full wave bridge rectifier using
 *Four diodes and a resistor
 
 *Voltage Source-
@@ -27,14 +27,17 @@ VDC 2 3 dc 12
 .control
 
 *Transient Analysis Settings-
-tran 1ms 20ms
+tran 1ms 1s
 
 *Color Settings-
 set color0 = white
 set color1 = black
 set color2 = blue
 
-*Plot Command-
+*Plot Command for Voltage-
 plot v(1) v(2)-V(3) xlabel 'Time (in s)' ylabel 'Voltage (in V)'
+
+*Plot Command for Current-
+plot i(VDC) xlabel 'Time (in s)' ylabel 'Current (in A)'
     
 .endc
