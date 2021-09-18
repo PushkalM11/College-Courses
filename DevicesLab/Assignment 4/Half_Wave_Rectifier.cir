@@ -1,0 +1,41 @@
+Half Wave Rectifier
+
+*This code simulates a half wave bridge rectifier using
+*Two diodes and a resistor
+
+*Voltage Source-
+V1 1 0 sin(0, 20, 50, 0, 0)
+
+*Resistance connection-
+R1 1 2 100
+
+*Diode Model Declaration-
+.model DMOD D
+
+*Connection for Diode-
+D1 2 3 DMOD
+
+*Capacitance for Stability-
+C1 3 4 100u
+
+*Model for Battery
+VDC 3 4 dc 12
+
+*Control Block-
+.control
+
+*Transient Analysis Settings-
+tran 1ms 1s
+
+*Color Settings-
+set color0 = white
+set color1 = black
+set color2 = blue
+
+*Plot Command for Voltage-
+plot v(1) v(3)-V(4) xlabel 'Time (in s)' ylabel 'Voltage (in V)'
+
+*Plot Command for Current-
+plot i(VDC) xlabel 'Time (in s)' ylabel 'Current (in A)'
+    
+.endc
