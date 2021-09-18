@@ -41,6 +41,6 @@ set color2 = blue
 plot v(1) v(2)-V(3) xlabel 'Time (in s)' ylabel 'Voltage (in V)'
 
 *Plot Command for Current-
-plot i(VDC) xlabel 'Time (in s)' ylabel 'Current (in A)'
+plot v(1) 10*i(VDC) xlabel 'Time (in s)' ylabel 'Current (in A)'
     
 .endc
