@@ -18,19 +18,19 @@ D3 0 2 DMOD
 D4 3 1 DMOD
 
 *Resistance connection-
-R1 2 3 100
+R1 2 4 1k
 
 *Capacitance for Stability-
 C1 2 3 100u
 
 *Model for Battery
-VDC 2 3 dc 12
+VDC 4 3 dc 12
 
 *Control Block-
 .control
 
 *Transient Analysis Settings-
-tran 1ms 1s
+tran 1ms 200ms
 
 *Color Settings-
 set color0 = white
