@@ -38,7 +38,7 @@ set color2 = blue
 set xbrushwidth = 3
 
 *Plot Command for Voltage-
-plot v(1) v(2)-V(3) xlabel 'Time (in ms)' ylabel 'Voltage (in V)'
+plot v(1) v(2)-v(3) xlabel 'Time (in ms)' ylabel 'Voltage (in V)'
 
 *Plot Command for Current-
 plot i(VDC) xlabel 'Time (in ms)' ylabel 'Current (in mA)'
