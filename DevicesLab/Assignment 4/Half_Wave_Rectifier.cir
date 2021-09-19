@@ -22,7 +22,7 @@ VDC 3 0 dc 12
 .control
 
 *Transient Analysis Settings-
-tran 5us 20ms
+tran 1us 20ms
 
 *Color Settings-
 set color0 = white
