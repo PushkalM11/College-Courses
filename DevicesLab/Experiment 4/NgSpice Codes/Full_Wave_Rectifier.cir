@@ -1,0 +1,52 @@
+Full Wave Rectifier
+
+*This code simulates a full wave bridge rectifier using
+*Four diodes and a resistor
+
+*Voltage Source-
+V1 1 0 sin(0, 34.7, 50, 0, 0)
+
+*Diode Model Declaration-
+.model DMOD D
+
+*Connection for Forward Bias-
+D1 1 2 DMOD
+D2 3 0 DMOD
+
+*Connection for Reverse Bias-
+D3 0 2 DMOD
+D4 3 1 DMOD
+
+*Resistance connection-
+R1 2 4 177.5
+
+*Model for Battery
+VDC 4 3 dc 12
+
+*Control Block-
+.control
+
+*Transient Analysis Settings-
+tran 1us 20ms
+
+*Color Settings-
+set color0 = white
+set color1 = black
+set color2 = blue
+
+*Brushwidth Command-
+set xbrushwidth = 3
+
+*Plot Command for Voltage-
+plot v(1) v(2)-v(3) xlabel 'Time (in ms)' ylabel 'Voltage (in V)'
+
+*Plot Command for Current-
+plot i(VDC) xlabel 'Time (in ms)' ylabel 'Current (in mA)'
+
+*Plot Command for Current and Voltage-
+plot v(2)-v(3) 10*i(VDC) xlabel 'Time (in ms)'
+
+*Plot Command for Voltage across Diode D1-
+plot v(1)-v(2) xlabel 'Time (in ms)' ylabel 'Voltage (in V)'
+
+.endc
