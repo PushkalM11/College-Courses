@@ -1,0 +1,54 @@
+Voltage Regulator
+
+*This code simulates a voltage regulator using
+*A Full Wave Rectifier, a Zener Diode, a Capacitor and Resistors
+
+*Voltage Source-
+V1 1 2 sin(0, 34.7, 50, 0, 0)
+
+*Diode Model Declaration-
+.model DMOD D
+
+*Connection for Forward Bias-
+D1 1 3 DMOD
+D2 0 2 DMOD
+
+*Connection for Reverse Bias-
+D3 2 3 DMOD
+D4 0 1 DMOD
+
+*Capacitor for Stability-
+Cf 3 0 100u
+
+*Series Resistance-
+RS 3 4 1k
+
+*Load Resistance-
+RL 4 0 1k
+
+*Zener Diode Model Declaration-
+.model zener d BV 8
+
+*Zener Diode Connection-
+DZ 0 4 zener
+
+*Control Block-
+.control
+
+*Transient Analysis Settings-
+tran 1us 20ms
+
+*Color Settings-
+set color0 = white
+set color1 = black
+set color2 = blue
+set color3 = green
+set color4 = orange
+
+*Brushwidth Command-
+set xbrushwidth = 3
+
+*Plot Command-
+plot v(1)-v(2) v(3) v(4) xlabel 'Time (in ms)' ylabel 'Voltage (in V)'
+
+.endc
