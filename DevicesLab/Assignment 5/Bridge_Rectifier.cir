@@ -21,7 +21,7 @@ D4 0 1 DMOD
 Cf 3 0 133.34u
 
 *Load Resistance-
-RL 4 0 1k
+RL 3 0 1.5k
 
 *Control Block-
 .control
