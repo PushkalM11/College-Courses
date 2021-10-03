@@ -4,7 +4,7 @@ Voltage Regulator
 *A Full Wave Rectifier, a Zener Diode, a Capacitor and Resistors
 
 *Voltage Source-
-V1 1 2 sin(0, 34.7, 50, 0, 0)
+V1 1 2 sin(0, 15, 50, 0, 0)
 
 *Diode Model Declaration-
 .model DMOD D
@@ -18,10 +18,10 @@ D3 2 3 DMOD
 D4 0 1 DMOD
 
 *Capacitor for Stability-
-Cf 3 0 100u
+Cf 3 0 133.34u
 
 *Series Resistance-
-RS 3 4 1k
+RS 3 4 27.28
 
 *Load Resistance-
 RL 4 0 1k
@@ -36,7 +36,7 @@ DZ 0 4 zener
 .control
 
 *Transient Analysis Settings-
-tran 1us 20ms
+tran 1us 40ms
 
 *Color Settings-
 set color0 = white
