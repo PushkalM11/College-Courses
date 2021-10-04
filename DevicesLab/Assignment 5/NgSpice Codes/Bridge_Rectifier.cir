@@ -1,0 +1,44 @@
+Bridge Rectifier
+
+*This code simulates a full wave bridge rectifier using
+*Four diodes, a resistor and a capacitor
+
+*Voltage Source-
+V1 1 2 sin(0, 15, 50, 0, 0)
+
+*Diode Model Declaration-
+.model DMOD D
+
+*Connection for Forward Bias-
+D1 1 3 DMOD
+D2 0 2 DMOD
+
+*Connection for Reverse Bias-
+D3 2 3 DMOD
+D4 0 1 DMOD
+
+*Capacitor for Stability-
+Cf 3 0 133.34u
+
+*Load Resistance-
+RL 3 0 1.5k
+
+*Control Block-
+.control
+
+*Transient Analysis Settings-
+tran 1us 40ms
+
+*Color Settings-
+set color0 = white
+set color1 = black
+set color2 = blue
+set color3 = green
+
+*Brushwidth Command-
+set xbrushwidth = 3
+
+*Plot Command-
+plot v(1)-v(2) v(3) xlabel 'Time (in ms)' ylabel 'Voltage (in V)'
+
+.endc
