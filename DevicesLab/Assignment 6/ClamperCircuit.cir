@@ -1,0 +1,39 @@
+Clipper Circuit
+
+*This code simulates a Clipper Circuit using-
+*A Resistor and Two Zener diodes
+
+*Voltage Source- 
+V1 1 0 sin(0, 5, 1000, 0, 0)
+
+*Capacitance-
+C1 1 2 100u
+
+*Diode Model Declaration-
+.model DMOD D
+
+*Diode connection-
+D1 2 0 DMOD
+
+*Load Resistance-
+R1 2 0 10k
+
+*Control Block-
+.control
+
+*Transient Analysis Settings-
+tran 0.01us 5ms  
+
+*Color Settings-
+set color0 = white
+set color1 = black
+set color2 = blue
+set color3 = green
+
+*Brushwidth Command-
+set xbrushwidth = 3
+
+*Plot Command-
+plot v(1) v(2) xlabel 'Time (in ms)' ylabel 'Voltage (in V)'
+
+.endc 
