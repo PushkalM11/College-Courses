@@ -13,13 +13,13 @@ R1 1 2 100
 .model zener_reverse d BV 1.5
 
 *Zener Diode to maintain voltage when V1 is negative-
-DZ 2 3 zener_reverse
+DZ1 2 3 zener_reverse
 
 *Zener Diode Model Declaration-
 .model zener_forward d BV 0.8
 
 *Zener Diode to maintain voltage when V1 is positive-
-DZ 0 3 zener_forward
+DZ2 0 3 zener_forward
 
 *Control Block-
 .control
@@ -39,4 +39,4 @@ set xbrushwidth = 3
 *Plot Command-
 plot v(1) v(2) xlabel 'Time (in ms)' ylabel 'Voltage (in V)'
 
-.endc 
+.endc
