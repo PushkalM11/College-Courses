@@ -1,0 +1,42 @@
+Clipper Circuit
+
+*This code simulates a Clipper Circuit using-
+*A Resistor and Two Zener diodes
+
+*Voltage Source- 
+V1 1 0 sin(0, 5, 1000, 0, 0)
+
+*Resistance-
+R1 1 2 100
+
+*Zener Diode Model Declaration-
+.model zener_reverse d BV 1.5
+
+*Zener Diode to maintain voltage when V1 is negative-
+DZ1 2 3 zener_reverse
+
+*Zener Diode Model Declaration-
+.model zener_forward d BV 0.8
+
+*Zener Diode to maintain voltage when V1 is positive-
+DZ2 0 3 zener_forward
+
+*Control Block-
+.control
+
+*Transient Analysis Settings-
+tran 0.01us 4ms  
+
+*Color Settings-
+set color0 = white
+set color1 = black
+set color2 = blue
+set color3 = green
+
+*Brushwidth Command-
+set xbrushwidth = 3
+
+*Plot Command-
+plot v(1) v(2) xlabel 'Time (in ms)' ylabel 'Voltage (in V)'
+
+.endc
