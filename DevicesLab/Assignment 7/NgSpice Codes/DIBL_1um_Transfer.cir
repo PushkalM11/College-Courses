@@ -1,0 +1,42 @@
+PMOSFET Transfer Characteristics
+
+*This code determines the DIBL for a PMOSFET with L = 1μm
+
+*Gate Bias voltage-
+Vgs 0 1 dc 2
+
+*Model Declaration for PMOSFET-
+.model n1 PMOS (LEVEL=49 VTHO=-0.5 L=1E-6 tox=5E-9)
+
+*PMOSFET connection-
+m1 2 1 0 0 n1
+
+*Resistance to limit current-
+R1 2 3 1k
+
+*Temporary Voltage source-
+Vid 3 4 dc 0
+
+*Drain Bias voltage-
+*Case 1-
+*Vdd 0 4 dc 0.1
+
+*Case 2-
+Vdd 0 4 dc 2.50
+
+*Control block-
+.control
+
+set appendwrite true    
+cd /Users/pushkalmishra/Desktop/Semester 3/Devices Lab/Experiment 7/NgSpice Codes
+
+*DC Sweep command-
+dc Vgs 0 1 0.01
+
+*Print command-
+*print i(Vid)
+
+*Command to write in the file-
+wrdata dibl_1um_transfer.txt i(Vid)
+
+.endc
