@@ -1,0 +1,46 @@
+NOT Gate
+
+*This code simulates a NOT gate and plots Vout vs Vin
+
+*Voltage Supply-
+Vdd 1 0 dc 5
+
+*Input Voltage-
+Vin 2 0 dc 1
+
+*Model Declaration for PMOSFET-
+.model p1 PMOS
+
+*PMOS connection-
+m1 3 2 1 1 p1
+
+*Model Declaration for NMOSFET-
+.model n1 NMOS
+
+*NMOS connection-
+m2 3 2 0 0 n1
+
+*Control Block-
+.control
+
+*DC Sweep Command-
+dc Vin 0 5 0.01
+
+*Color Settings-
+set color0 = white
+set color1 = black
+set color2 = blue
+
+*Brushwidth Command-
+set xbrushwidth = 2.5
+
+*Plot Command-
+plot v(3) xlabel 'Input Voltage Vin' ylabel 'Output Voltage Vout'
+
+set appendwrite true
+*cd /Users/pushkalmishra/Desktop/Semester 3/Devices Lab/Experiment 8/NgSpice Codes
+
+*Command to write in the file-
+wrdata NOT_Gate.txt v(3)
+
+.endc

@@ -1,0 +1,87 @@
+OR Gate
+
+*This code simulates OR gate using NOT and NOR gates as sub-circuits
+
+*Model Declaration for PMOSFET-
+.model p1 PMOS
+
+*Model Declaration for NMOSFET-
+.model n1 NMOS
+
+*Subcircuit for NOT Gate-
+.SUBCKT NOT 2 3 1 
+
+ *Node 0 - GND
+ *Node 1 - Vdd 
+ *Node 2 - Vin
+ *Node 3 - Vout 
+
+ m1 3 2 1 1 p1
+ m2 3 2 0 0 n1
+
+.ENDS NOT
+
+*Subcircuit for NOR Gate-
+.SUBCKT NOR 2 3 5 1 
+
+ *Node 0 - GND
+ *Node 1 - Vdd
+ *Node 2 - Vin1
+ *Node 3 - Vin2
+ *Node 4 - Internal Connection
+ *Node 5 - Vout
+
+ m1 4 2 1 1 p1
+ m2 5 3 4 4 p1
+ m3 5 3 0 0 n1
+ m4 5 2 0 0 n1
+
+.ENDS NOR
+
+*Voltage Supply-
+Vdd 1 0 dc 5
+
+*Input Voltage 1-
+Vin1 2 0 DC 0 PULSE(0 5 0 5NS 5NS 50NS 100NS)
+
+*Input Voltage 2-
+Vin2 3 0 DC 0 PULSE(0 5 0 5NS 5NS 100NS 200NS)
+
+*NOR gate logic is (A + B)'
+*So if we invert the output of NOR we get OR
+*((A + B)')' = A + B
+
+*NOR gate-
+X1 2 3 4 1 NOR
+
+*NOT gate to invert NOR-
+X2 4 5 1 NOT
+
+*Control Block-
+.control
+
+*Transient Analysis Setting-
+tran 1ns 500ns
+
+*Color Settings-
+set color0 = white
+set color1 = black
+set color2 = orange
+set color3 = green
+set color4 = red
+
+*Brushwidth Command-
+set xbrushwidth = 2.5
+
+*Plot Command-
+plot 12+v(2) 6+v(3) v(5) xlabel 'Time (in ns)' ylabel 'Voltage (in V)'
+
+set appendwrite true
+*cd /Users/pushkalmishra/Desktop/Semester 3/Devices Lab/Experiment 8/NgSpice Codes
+
+*Command to write in the file-
+wrdata OR_Gate.txt 12+v(2)
+wrdata OR_Gate.txt 6+v(3)
+wrdata OR_Gate.txt v(5)
+
+.endc

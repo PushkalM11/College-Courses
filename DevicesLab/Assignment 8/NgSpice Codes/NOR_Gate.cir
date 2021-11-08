@@ -1,0 +1,57 @@
+NOR Gate
+
+*This code simulates a NOR gate with NMOS and PMOS transistors
+*It also plots the logic outputs
+
+*Voltage Supply-
+Vdd 1 0 dc 5
+
+*Input Voltage 1-
+Vin1 2 0 DC 0 PULSE(0 5 0 5NS 5NS 50NS 100NS)
+
+*Input Voltage 2-
+Vin2 3 0 DC 0 PULSE(0 5 0 5NS 5NS 100NS 200NS)
+
+*Model Declaration for PMOSFET-
+.model p1 PMOS
+
+*Connection for 1st PMOS-
+m1 4 2 1 1 p1
+
+*Connection for 2nd PMOS-
+m2 5 3 4 4 p1
+
+*Model Declaration for NMOSFET-
+.model n1 NMOS
+
+*Connection for 1st NMOS-
+m3 5 3 0 0 n1
+
+*Connection for 2nd NMOS-
+m4 5 2 0 0 n1
+
+*Control Block-
+.control
+
+*Transient Analysis Setting-
+tran 1ns 500ns
+
+*Color Settings-
+set color0 = white
+set color1 = black
+set color2 = orange
+set color3 = green
+set color4 = red
+
+*Plot Command-
+plot 12+v(2) 6+v(3) v(5) xlabel 'Time (in ns)' ylabel 'Voltage (in V)'
+
+set appendwrite true
+*cd /Users/pushkalmishra/Desktop/Semester 3/Devices Lab/Experiment 8/NgSpice Codes
+
+*Command to write in the file-
+wrdata NOR_Gate.txt 12+v(2)
+wrdata NOR_Gate.txt 6+v(3)
+wrdata NOR_Gate.txt v(5)
+
+.endc
