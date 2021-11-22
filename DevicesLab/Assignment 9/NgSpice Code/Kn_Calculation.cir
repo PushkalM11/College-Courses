@@ -1,0 +1,34 @@
+Output Characteristics of NMOS to calculate Kn
+
+*Model Declaration for NMOSFET
+.model n NMOS W=10u L=0.5u VTO=1
+
+*Gate Souce Voltage connection
+Vgs 1 0 dc 2
+
+*Connection for NMOS 
+m1 2 1 0 0 n
+
+*Series Resistance for Drain
+R1 2 3 1k
+
+*Dummy Voltage to measure current
+V2 4 3 0V
+
+*Drain Voltage Connection
+Vdd 4 0 dc 1
+
+*Control Block
+.control
+
+*DC Analysis setting
+dc Vdd 0 3 0.01
+
+*File Write Setting
+set appendwrite true
+cd /Users/pushkalmishra/Desktop/Semester 3/Devices Lab/Experiment 9/NgSpice Code
+
+*Command to write data
+wrdata Kn_Calculation.txt i(V2)
+
+.endc
