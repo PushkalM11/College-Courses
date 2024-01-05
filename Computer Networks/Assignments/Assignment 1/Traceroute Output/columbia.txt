@@ -1,0 +1,86 @@
+
+Tracing route to columbia.edu [128.59.105.24]
+
+  1     2 ms     2 ms     2 ms  WirelessAP [192.168.1.1] 
+  2     *        *        *     Request timed out.
+  3     3 ms     3 ms     3 ms  192.168.41.1 
+  4     3 ms     2 ms     2 ms  fw-in.comp.iith.ac.in [192.168.8.19] 
+  5     3 ms     2 ms     3 ms  noc-cr-in.comp.iith.ac.in [103.232.241.2] 
+  6     3 ms     2 ms     2 ms  noc-cn-in.comp.iith.ac.in [10.119.254.121] 
+  7    28 ms    28 ms    28 ms  10.160.24.5 
+  8    86 ms    29 ms    31 ms  10.255.232.201 
+  9    28 ms    28 ms    29 ms  180.149.48.18 
+ 10   170 ms   170 ms   169 ms  180.149.48.6 
+ 11   170 ms   169 ms   169 ms  180.149.48.20 
+ 12   254 ms   254 ms   253 ms  180.149.48.13 
+ 13   253 ms   251 ms   251 ms  nyc-9208-I2-NEWY.nysernet.net [199.109.5.1] 
+ 14   252 ms   252 ms   252 ms  columbia-nyc-9208.nysernet.net [199.109.4.14] 
+ 15   292 ms   252 ms   251 ms  cc-core-1-x-nyser32-gw-1.net.columbia.edu [128.59.255.5] 
+ 16   251 ms   251 ms   255 ms  cc-conc-1-x-cc-core-1.net.columbia.edu [128.59.255.21] 
+ 17   252 ms   252 ms   251 ms  gutenberg-e.org [128.59.105.24] 
+
+
+Tracing the route to 128.59.105.24
+
+ 1  ae-9.r20.amstnl07.nl.bb.gin.ntt.net (129.250.4.10) 14 msec  5 msec  5 msec 
+ 2  ae-0.a01.amstnl07.nl.bb.gin.ntt.net (129.250.7.87) 21 msec  30 msec  4 msec 
+ 3  be3106.agr21.ams03.atlas.cogentco.com (130.117.15.129) 4 msec  5 msec  4 msec 
+ 4  be2440.ccr42.ams03.atlas.cogentco.com (130.117.50.5) 5 msec  5 msec  5 msec 
+ 5  be12488.ccr42.lon13.atlas.cogentco.com (130.117.51.41) 12 msec  12 msec  12 msec 
+ 6  be3668.rcr24.jfk01.atlas.cogentco.com (154.54.42.69) 79 msec  79 msec  79 msec 
+ 7  asdf 38.122.8.210 83 msec  79 msec  79 msec 
+ 8  cc-core-1-x-nyser32-gw-1.net.columbia.edu (128.59.255.5) 79 msec  79 msec  79 msec 
+ 9  cc-conc-1-x-cc-core-1.net.columbia.edu (128.59.255.21) 79 msec  79 msec  79 msec 
+ 10 columbia.edu (128.59.105.24) 79 msec  79 msec  80 msec 
+
+
+Tracing the route to 128.59.105.24
+
+ 1  be2914.agr41.fra03.atlas.cogentco.com (130.117.14.129) 2 msec  1 msec  6 msec 
+ 2  be3187.ccr42.fra03.atlas.cogentco.com (130.117.1.118) 2 msec  2 msec  2 msec 
+ 3  be2814.ccr42.ams03.atlas.cogentco.com (130.117.0.141) 52 msec  10 msec  9 msec 
+ 4  be12488.ccr42.lon13.atlas.cogentco.com (130.117.51.41) 18 msec  15 msec  15 msec 
+ 5  be3668.rcr24.jfk01.atlas.cogentco.com (154.54.42.69) 85 msec  85 msec  85 msec 
+ 6  asdf 38.122.8.210 85 msec  85 msec  85 msec 
+ 7  cc-core-1-x-nyser32-gw-1.net.columbia.edu (128.59.255.5) 85 msec  85 msec  86 msec 
+ 8  cc-conc-1-x-cc-core-1.net.columbia.edu (128.59.255.21) 85 msec  85 msec  85 msec 
+ 9  columbia.edu (128.59.105.24) 86 msec  88 msec  85 msec 
+
+
+Tracing the route to 128.59.105.24
+
+ 1  ae-3.r20.parsfr04.fr.bb.gin.ntt.net (129.250.3.7) 1 msec  2 msec  2 msec 
+ 2  ae-0.a01.parsfr05.fr.bb.gin.ntt.net (129.250.2.179) 1 msec 
+    ae-1.a01.parsfr05.fr.bb.gin.ntt.net (129.250.2.107) 1 msec  2 msec 
+ 3   *  *  * 
+ 4  be3184.ccr42.par01.atlas.cogentco.com (154.54.38.157) 35 msec  2 msec  1 msec 
+ 5  be3628.ccr42.jfk02.atlas.cogentco.com (154.54.27.169) 73 msec  73 msec  74 msec 
+ 6  be2897.rcr24.jfk01.atlas.cogentco.com (154.54.84.214) 74 msec  73 msec  73 msec 
+ 7  asdf 38.122.8.210 74 msec  73 msec  73 msec 
+ 8  cc-core-1-x-nyser32-gw-1.net.columbia.edu (128.59.255.5) 73 msec  73 msec  73 msec 
+ 9  cc-conc-1-x-cc-core-1.net.columbia.edu (128.59.255.21) 174 msec  73 msec  73 msec 
+ 10 columbia.edu (128.59.105.24) 73 msec  73 msec  73 msec 
+
+Tracing route to columbia.edu [128.59.105.24]
+
+  1    57 ms   253 ms   189 ms  192.168.213.90 
+  2   362 ms    97 ms   316 ms  192.168.36.15 
+  3    99 ms   103 ms   301 ms  192.168.34.181 
+  4   165 ms    86 ms    23 ms  192.168.48.5 
+  5   135 ms    94 ms   197 ms  192.168.48.2 
+  6    87 ms   100 ms    26 ms  192.168.48.49 
+  7   114 ms   180 ms   134 ms  182.79.27.25 
+  8   643 ms   309 ms   303 ms  182.79.201.106 
+  9     *        *        *     Request timed out.
+ 10   315 ms   598 ms   437 ms  be3360.ccr42.lax01.atlas.cogentco.com [154.54.25.149] 
+ 11   404 ms   630 ms   391 ms  be2932.ccr32.phx01.atlas.cogentco.com [154.54.45.161] 
+ 12   350 ms   404 ms   407 ms  be3872.ccr22.elp02.atlas.cogentco.com [154.54.26.54] 
+ 13   336 ms   376 ms   430 ms  be3851.ccr42.iah01.atlas.cogentco.com [154.54.2.5] 
+ 14   497 ms   414 ms   611 ms  be2690.ccr42.atl01.atlas.cogentco.com [154.54.28.129] 
+ 15   546 ms   504 ms   413 ms  be2113.ccr42.dca01.atlas.cogentco.com [154.54.24.221] 
+ 16   399 ms   409 ms   520 ms  be2807.ccr42.jfk02.atlas.cogentco.com [154.54.40.109] 
+ 17   445 ms   525 ms   707 ms  be2897.rcr24.jfk01.atlas.cogentco.com [154.54.84.214] 
+ 18   413 ms   406 ms   566 ms  38.122.8.210 
+ 19   703 ms   523 ms   378 ms  cc-core-1-x-nyser32-gw-1.net.columbia.edu [128.59.255.5] 
+ 20   658 ms   496 ms   449 ms  cc-conc-1-x-cc-core-1.net.columbia.edu [128.59.255.21] 
+ 21   460 ms   513 ms   405 ms  columbiauniversity.info [128.59.105.24] 

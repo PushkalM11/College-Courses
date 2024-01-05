@@ -1,0 +1,16 @@
+https://sladewinter.medium.com/video-frame-prediction-using-convlstm-network-in-pytorch-b5210a6ce582
+https://keras.io/examples/vision/conv_lstm/
+https://pradeep-dhote9.medium.com/seq2seq-encoder-decoder-lstm-model-1a1c9a43bbac
+https://github.com/xiye20/vptr
+
+
+
+- Vision Transformers
+- Similarity metrics for video similarity (Fréchet Video Distance)
+- See stuff better than Transformers
+- Kinetics-600 dataset
+
+
+- Use image filtering/deblurring to improve image quality of predicted frames
+- Try different loss functions on an already implemented model
+- CNNs replace with RNNs/LSTMs

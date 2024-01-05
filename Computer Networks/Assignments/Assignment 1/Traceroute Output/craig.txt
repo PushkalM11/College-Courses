@@ -1,0 +1,80 @@
+traceroute to craigslist.org (208.82.237.129), 64 hops max
+  1   172.22.96.1  0.456ms  0.334ms  0.410ms
+  2   192.168.1.1  2.540ms  2.143ms  2.185ms
+  3   *  *  *
+  4   192.168.41.1  14.333ms  36.221ms  4.071ms
+  5   192.168.8.19  8.445ms  3.194ms  2.900ms
+  6   103.232.241.2  3.614ms  3.123ms  2.964ms
+  7   10.119.254.121  2.953ms  2.995ms  5.249ms
+  8   10.160.24.5  9.813ms  6.267ms  4.820ms
+  9   10.255.222.33  5.293ms  6.097ms  4.858ms
+ 10   115.247.100.29  5.703ms  65.378ms  5.919ms
+ 11   *  *  *
+ 12   *  *  *
+ 13   *  *  *
+ 14   *  *  *
+ 15   128.241.7.158  216.587ms  292.550ms  307.320ms
+ 16   129.250.3.16  307.002ms  222.178ms  209.818ms
+ 17   129.250.6.116  222.401ms  224.010ms  222.095ms
+ 18   129.250.3.244  221.349ms  234.131ms  230.847ms
+ 19   165.254.239.30  221.669ms  217.750ms  234.903ms
+ 20   208.82.237.129  224.467ms  223.730ms  224.126ms
+
+
+Tracing the route to 208.82.237.129
+
+ 1  ae-5.r21.londen12.uk.bb.gin.ntt.net (129.250.4.36) 15 msec  * 
+ 2  ae-13.r25.asbnva02.us.bb.gin.ntt.net (129.250.2.111) 260 msec  *  * 
+ 3  ae-1.a05.asbnva02.us.bb.gin.ntt.net (129.250.3.244) 257 msec  255 msec  219 msec 
+ 4  asdf 165.254.239.30 273 msec  254 msec  238 msec 
+ 5  craigslist.org (208.82.237.129) 144 msec  154 msec  212 msec 
+
+
+
+Tracing the route to 208.82.237.129
+
+ 1  ae-2.r20.frnkge13.de.bb.gin.ntt.net (129.250.6.13) 3 msec  21 msec 
+    ae-2.r21.frnkge13.de.bb.gin.ntt.net (129.250.6.41) 1 msec 
+ 2  ae-12.r21.parsfr04.fr.bb.gin.ntt.net (129.250.5.27) 11 msec  13 msec  10 msec 
+ 3  ae-13.r25.asbnva02.us.bb.gin.ntt.net (129.250.2.111) 278 msec 
+ 4  ae-1.a05.asbnva02.us.bb.gin.ntt.net (129.250.3.244) 292 msec 
+    ae-14.r21.nwrknj03.us.bb.gin.ntt.net (129.250.4.194) 81 msec  89 msec 
+ 5  ae-3.r25.asbnva02.us.bb.gin.ntt.net (129.250.6.116) 88 msec 
+    asdf 165.254.239.30 254 msec 
+    ae-3.r25.asbnva02.us.bb.gin.ntt.net (129.250.6.116) 93 msec 
+ 6  ae-1.r24.asbnva02.us.bb.gin.ntt.net (129.250.2.37) 89 msec  *  * 
+ 7   *  *  * 
+ 8  asdf 165.254.239.30 90 msec  87 msec 
+ 9  craigslist.org (208.82.237.129) 88 msec  87 msec  * 
+
+
+Tracing the route to 208.82.237.129
+
+ 1  ae-3.r21.parsfr04.fr.bb.gin.ntt.net (129.250.3.101) 2 msec  1 msec  1 msec 
+ 2  ae-0.r20.parsfr04.fr.bb.gin.ntt.net (129.250.3.47) 1 msec  2 msec  1 msec 
+ 3   *  *  * 
+ 4  ae-13.r25.asbnva02.us.bb.gin.ntt.net (129.250.2.111) 83 msec  *  82 msec 
+ 5  ae-1.r24.asbnva02.us.bb.gin.ntt.net (129.250.2.37) 86 msec 
+ 6  ae-0.a05.asbnva02.us.bb.gin.ntt.net (129.250.3.242) 90 msec  86 msec  87 msec 
+ 7  asdf 165.254.239.30 82 msec  82 msec  82 msec 
+ 8  craigslist.org (208.82.237.129) 83 msec  83 msec  82 msec 
+
+
+Tracing route to craigslist.org [208.82.237.129]
+
+  1     8 ms     6 ms    79 ms  192.168.213.90 
+  2   168 ms   297 ms   220 ms  192.168.36.15 
+  3   173 ms   320 ms    89 ms  192.168.34.177 
+  4    34 ms   137 ms   204 ms  192.168.48.9 
+  5    76 ms   176 ms   308 ms  192.168.48.2 
+  6   132 ms   102 ms   111 ms  192.168.48.33 
+  7    39 ms   194 ms    66 ms  125.18.92.93 
+  8   275 ms    79 ms   202 ms  182.79.152.152 
+  9   150 ms   300 ms   306 ms  ae-3.a02.sngpsi07.sg.bb.gin.ntt.net [168.143.191.228] 
+ 10   198 ms   408 ms   200 ms  ae-5.r23.sngpsi07.sg.bb.gin.ntt.net [129.250.5.65] 
+ 11     *        *        *     Request timed out.
+ 12   297 ms     *      295 ms  ae-4.r25.lsanca07.us.bb.gin.ntt.net [129.250.3.193] 
+ 13   402 ms   511 ms   321 ms  ae-5.r25.asbnva02.us.bb.gin.ntt.net [129.250.3.188] 
+ 14   514 ms   365 ms   511 ms  ae-1.a05.asbnva02.us.bb.gin.ntt.net [129.250.3.244] 
+ 15   378 ms   405 ms   508 ms  165.254.239.30 
+ 16   401 ms   598 ms   514 ms  www.craigslist.org [208.82.237.129] 

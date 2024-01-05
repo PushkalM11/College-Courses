@@ -1,0 +1,115 @@
+traceroute to pc.watch.impress.co.jp (202.218.128.200), 64 hops max
+  1   172.22.96.1  0.494ms  0.307ms  0.393ms
+  2   192.168.1.1  6.496ms  3.126ms  3.224ms
+  3   *  *  *
+  4   192.168.41.1  12.655ms  3.839ms  4.062ms
+  5   *  192.168.8.19  114.273ms  12.072ms
+  6   103.232.241.2  3.656ms  3.375ms  3.410ms
+  7   10.119.254.121  4.718ms  3.487ms  159.991ms
+  8   10.160.24.5  5.163ms  4.927ms  4.566ms
+  9   10.255.221.33  6.117ms  7.365ms  4.964ms
+ 10   115.247.100.29  5.969ms  164.267ms  6.697ms
+ 11   *  *  *
+ 12   *  *  *
+ 13   *  *  *
+ 14   *  *  *
+ 15   4.69.217.18  115.931ms  116.615ms 115.931ms
+ 16   8.244.128.126  121.615ms  112.500ms  112.343ms
+ 17   163.139.130.222  116.059ms  116.058ms  121.466ms
+ 18   222.230.187.198  113.314ms  113.023ms  113.017ms
+ 19   *  *  *
+ 20   *  *  *
+ 21   *  *  *
+ 22   202.218.128.200  227.937ms  204.537ms  204.857ms
+
+
+Tracing the route to 202.218.128.200
+
+ 1  ae-5.r21.londen12.uk.bb.gin.ntt.net (129.250.4.36) 9 msec 
+ 2  ae-13.r25.asbnva02.us.bb.gin.ntt.net (129.250.2.111) 242 msec  287 msec 
+ 3   *  *  * 
+ 4  ae-1.a02.lsanca20.us.bb.gin.ntt.net (129.250.2.114) 259 msec 
+    ae-1.a03.lsanca20.us.bb.gin.ntt.net (129.250.3.178) 209 msec 
+    ae-1.a02.lsanca20.us.bb.gin.ntt.net (129.250.2.114) 310 msec 
+ 5  ae-0.iij.lsanca20.us.bb.gin.ntt.net (168.143.229.26) 245 msec 
+    ae-1.iij.lsanca20.us.bb.gin.ntt.net (168.143.229.30) 210 msec  267 msec 
+ 6  tky001bb01.IIJ.Net (58.138.88.157) 285 msec  366 msec  408 msec 
+ 7  tky001ip56.IIJ.Net (58.138.101.38) 305 msec 
+    tky001ip56.IIJ.Net (58.138.101.26) 405 msec  267 msec 
+ 8  asdf 210.130.134.118 404 msec  315 msec  381 msec 
+ 9  adsf 163.139.130.218 306 msec  299 msec 
+    163.139.130.222 377 msec 
+ 10 asdf 222.230.187.198 444 msec  398 msec  335 msec 
+ 11  *  *  * 
+ 12  *  *  * 
+ 13  *  *  * 
+ 14 pc.watch.impress.co.jp (202.218.128.200) 363 msec  275 msec  281 msec 
+
+
+
+Tracing the route to 202.218.128.200
+
+ 1  ae-2.r21.frnkge13.de.bb.gin.ntt.net (129.250.6.41) 20 msec 
+    ae-2.r20.frnkge13.de.bb.gin.ntt.net (129.250.6.13) 1 msec  8 msec 
+ 2   *  *  * 
+ 3  ae-0.r20.parsfr04.fr.bb.gin.ntt.net (129.250.3.47) 10 msec  10 msec  10 msec 
+ 4  ae-2.r25.lsanca07.us.bb.gin.ntt.net (129.250.3.189) 308 msec  *  344 msec 
+ 5  ae-1.a02.lsanca20.us.bb.gin.ntt.net (129.250.2.114) 182 msec 
+    ae-1.a03.lsanca20.us.bb.gin.ntt.net (129.250.3.178) 324 msec  342 msec 
+ 6  ae-1.iij.lsanca20.us.bb.gin.ntt.net (168.143.229.30) 180 msec  305 msec  
+ 7  ae-1.r24.snjsca04.us.bb.gin.ntt.net (129.250.5.17) 153 msec  149 msec  
+ 8  ae-0.a02.snjsca04.us.bb.gin.ntt.net (129.250.2.3) 149 msec  152 msec 
+    ae-0.a03.snjsca04.us.bb.gin.ntt.net (129.250.2.159) 150 msec 
+ 9  ae-0.iij.snjsca04.us.bb.gin.ntt.net (168.143.229.14) 150 msec 
+    210.130.134.118 323 msec  353 msec 
+ 10 asdf 163.139.130.218 388 msec  314 msec  410 msec 
+ 11 sadf 222.230.187.198 397 msec  434 msec  406 msec 
+ 12 asdf 210.130.134.118 249 msec  248 msec  249 msec 
+ 13 sadf 163.139.130.222 249 msec  249 msec 
+    163.139.130.218 251 msec 
+ 14 asdf 222.230.187.198 252 msec  250 msec  
+ 15 pc.watch.impress.co.jp (202.218.128.200) 444 msec  396 msec  426 msec 
+
+
+Tracing the route to 202.218.128.200
+
+ 1   *  *  * 
+ 2  ae-13.r24.asbnva02.us.bb.gin.ntt.net (129.250.6.6) 91 msec 
+ 3  ae-2.r24.snjsca04.us.bb.gin.ntt.net (129.250.6.237) 148 msec  148 msec 
+ 4  ae-0.a03.snjsca04.us.bb.gin.ntt.net (129.250.2.159) 141 msec  141 msec 
+    ae-0.a02.snjsca04.us.bb.gin.ntt.net (129.250.2.3) 146 msec 
+ 5  ae-1.iij.snjsca04.us.bb.gin.ntt.net (168.143.229.22) 141 msec 
+    ae-0.iij.snjsca04.us.bb.gin.ntt.net (168.143.229.14) 141 msec 
+    ae-1.iij.snjsca04.us.bb.gin.ntt.net (168.143.229.22) 140 msec 
+ 6  tky001bb00.IIJ.Net (58.138.88.81) 236 msec 
+    tky001bb01.IIJ.Net (58.138.88.93) 250 msec 
+    tky001bb00.IIJ.Net (58.138.88.81) 236 msec 
+ 7  tky001ip56.IIJ.Net (58.138.101.34) 244 msec 
+    tky001ip56.IIJ.Net (58.138.101.38) 247 msec  244 msec 
+ 8  asdf 210.130.134.118 237 msec  237 msec  237 msec 
+ 9  asdf 163.139.130.218 241 msec  240 msec  241 msec 
+ 10 asdf 222.230.187.198 250 msec  250 msec  252 msec 
+ 11  *  *  * 
+ 12  *  *  * 
+ 13  *  *  * 
+ 14 pc.watch.impress.co.jp (202.218.128.200) 245 msec  246 msec  245 msec 
+
+
+Tracing route to pc.watch.impress.co.jp [202.218.128.200]
+  1   162 ms     7 ms     6 ms  192.168.213.90 
+  2   156 ms   270 ms   180 ms  192.168.36.15 
+  3    36 ms   293 ms   130 ms  192.168.34.177 
+  4   331 ms   180 ms    41 ms  192.168.48.6 
+  5   288 ms    93 ms   204 ms  192.168.48.2 
+  6   184 ms   101 ms   176 ms  192.168.48.33 
+  7   288 ms    83 ms   117 ms  125.18.92.93 
+  8   322 ms    87 ms   131 ms  116.119.119.208 
+  9    79 ms    84 ms    94 ms  ae-12.edge3.Singapore3.Level3.net [4.68.70.113] 
+ 10   578 ms   308 ms   240 ms  ae2.3605.edge2.Tokyo4.level3.net [4.69.217.18] 
+ 11   333 ms   407 ms   306 ms  ARTERIA-NET.edge2.Tokyo4.Level3.net [113.29.1.138] 
+ 12   138 ms   235 ms   202 ms  163.139.130.222 
+ 13   259 ms   406 ms   204 ms  222.230.187.198 
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17   282 ms   304 ms   306 ms  202.218.128.200 

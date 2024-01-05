@@ -1,0 +1,93 @@
+traceroute to talktalkgroup.com (5.28.62.178), 64 hops max
+  1   172.22.96.1  0.695ms  0.568ms  0.509ms
+  2   192.168.1.1  3.407ms  3.221ms  4.532ms
+  3   *  *  *
+  4   192.168.41.1  4.005ms  3.952ms  3.636ms
+  5   192.168.8.19  4.207ms  3.530ms  3.573ms
+  6   103.232.241.2  6.883ms  4.640ms  3.948ms
+  7   10.119.254.121  10.329ms  3.890ms  3.947ms
+  8   10.160.24.5  9.420ms  7.546ms  5.772ms
+  9   10.255.221.33  5.778ms  5.848ms  8.867ms
+ 10   115.247.100.29  6.576ms  6.287ms  7.090ms
+ 11   *  *  *
+ 12   *  *  *
+ 13   *  *  *
+ 14   *  *  *
+ 15   *  *  *
+ 16   130.180.202.49  140.183ms  139.871ms  139.826ms
+ 17   130.180.202.57  143.228ms  142.875ms  143.274ms
+ 18   91.223.58.33  145.863ms  142.644ms  144.664ms
+ 19   5.28.62.178  152.193ms  152.370ms  153.149ms
+
+
+
+Tracing the route to 5.28.62.178
+
+ 1  ae-5.r21.londen12.uk.bb.gin.ntt.net (129.250.4.36) 6 msec  6 msec  23 msec 
+ 2  ae-1.a03.londen12.uk.bb.gin.ntt.net (129.250.3.251) 10 msec  10 msec  17 msec 
+ 3  zayo.ae14.mcs1.lhr15.uk.eth.zayo.com (208.184.12.80) 9 msec  13 msec  7 msec 
+ 4  ae1.cs1.lhr15.uk.eth.zayo.com (64.125.29.128) 7 msec  *  6 msec 
+ 5  ae11.mpr1.lhr23.uk.zip.zayo.com (64.125.28.33) 6 msec  6 msec  6 msec 
+ 6   *  *  * 
+ 7  be98.asr01.thn.as20860.net (62.128.211.137) 7 msec 
+    be100.asr01.thn.as20860.net (62.128.218.1) 7 msec  7 msec 
+ 8  be1.n540-1.thn.as20860.net (130.180.202.49) 7 msec  16 msec  7 msec 
+ 9  te0-0-0-2.cr4.yrk.bytemark.co.uk (130.180.202.57) 11 msec  11 msec  12 msec 
+ 10 po1.ar2.dc1.yo26.yrk.bytemark.co.uk (91.223.58.33) 10 msec  11 msec  23 msec 
+ 11 www.talktalkgroup.com (5.28.62.178) 11 msec  10 msec  10 msec 
+
+
+
+Tracing the route to 5.28.62.178
+
+ 1  be2914.agr41.fra03.atlas.cogentco.com (130.117.14.129) 2 msec  1 msec  1 msec 
+ 2  be3187.ccr42.fra03.atlas.cogentco.com (130.117.1.118) 2 msec  2 msec 
+    be3186.ccr41.fra03.atlas.cogentco.com (130.117.0.1) 2 msec 
+ 3  be2813.ccr41.ams03.atlas.cogentco.com (130.117.0.121) 8 msec  8 msec 
+    be2814.ccr42.ams03.atlas.cogentco.com (130.117.0.141) 8 msec 
+ 4  be12194.ccr41.lon13.atlas.cogentco.com (154.54.56.93) 15 msec  16 msec 
+    be12488.ccr42.lon13.atlas.cogentco.com (130.117.51.41) 15 msec 
+ 5  be2871.ccr21.lon01.atlas.cogentco.com (154.54.58.186) 15 msec 
+    be2868.ccr21.lon01.atlas.cogentco.com (154.54.57.154) 15 msec  16 msec 
+ 6  asdf 149.11.143.66 15 msec  16 msec  16 msec 
+ 7  be1.n540-1.thn.as20860.net (130.180.202.49) 16 msec  16 msec  15 msec 
+ 8  te0-0-0-2.cr4.yrk.bytemark.co.uk (130.180.202.57) 21 msec  21 msec  19 msec 
+ 9  po1.ar2.dc1.yo26.yrk.bytemark.co.uk (91.223.58.33) 19 msec  20 msec  20 msec 
+ 10 www.talktalkgroup.com (5.28.62.178) 20 msec  20 msec  19 msec 
+
+
+
+Tracing the route to 5.28.62.178
+
+ 1  ae-3.r20.parsfr04.fr.bb.gin.ntt.net (129.250.3.7) 11 msec  *  * 
+ 2  ae-0.a00.parsfr05.fr.bb.gin.ntt.net (129.250.2.151) 1 msec 
+    ae-1.a00.parsfr05.fr.bb.gin.ntt.net (129.250.2.71) 4 msec 
+    ae-0.a00.parsfr05.fr.bb.gin.ntt.net (129.250.2.151) 1 msec 
+ 3  ae17.mpr1.cdg11.fr.zip.zayo.com (64.125.14.105) 1 msec  1 msec  1 msec 
+ 4   *  *  * 
+ 5   *  *  * 
+ 6  ae9.mpr1.lhr23.uk.zip.zayo.com (64.125.28.3) 8 msec  8 msec  8 msec 
+ 7   *  *  * 
+ 8  be100.asr01.thn.as20860.net (62.128.218.1) 8 msec  8 msec 
+    be98.asr01.thn.as20860.net (62.128.211.137) 9 msec 
+ 9  be1.n540-1.thn.as20860.net (130.180.202.49) 8 msec  9 msec  8 msec 
+ 10 te0-0-0-2.cr4.yrk.bytemark.co.uk (130.180.202.57) 12 msec  13 msec  12 msec 
+ 11 po1.ar2.dc1.yo26.yrk.bytemark.co.uk (91.223.58.33) 12 msec  13 msec  12 msec 
+ 12 www.talktalkgroup.com (5.28.62.178) 12 msec  12 msec  12 msec 
+
+
+Tracing route to talktalkgroup.com [5.28.62.178]
+
+  1     5 ms    39 ms     5 ms  192.168.213.90 
+  2   188 ms  1031 ms   220 ms  192.168.36.15 
+  3   156 ms   186 ms    90 ms  192.168.34.177 
+  4    24 ms    42 ms    25 ms  192.168.48.4 
+  5   163 ms   397 ms   754 ms  192.168.48.2 
+  6   238 ms    57 ms   211 ms  192.168.48.33 
+  7  1130 ms    58 ms    82 ms  125.18.92.93 
+  8   456 ms   510 ms   269 ms  116.119.119.186 
+  9   770 ms   402 ms  1564 ms  be20.asr01.thn.as20860.net [195.66.224.207] 
+ 10  1248 ms   318 ms   555 ms  be1.n540-1.thn.as20860.net [130.180.202.49] 
+ 11   363 ms   291 ms   319 ms  te0-0-0-2.cr4.yrk.bytemark.co.uk [130.180.202.57] 
+ 12  1019 ms   436 ms   452 ms  po1.ar2.dc1.yo26.yrk.bytemark.co.uk [91.223.58.33] 
+ 13   511 ms   325 ms   312 ms  sserv.default.steve-byte.uk0.bigv.io [5.28.62.178] 

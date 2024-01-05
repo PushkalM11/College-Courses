@@ -1,0 +1,105 @@
+
+Tracing route to WWW.R53.cmu.edu [128.2.42.52]
+
+  1     2 ms     3 ms     2 ms  WirelessAP [192.168.1.1] 
+  2     *        *        *     Request timed out.
+  3     8 ms     2 ms     3 ms  192.168.41.1 
+  4    17 ms     2 ms     2 ms  192.168.8.18 
+  5    11 ms     2 ms     2 ms  noc-cr-in.comp.iith.ac.in [103.232.241.2] 
+  6     8 ms     2 ms     2 ms  noc-cn-in.comp.iith.ac.in [10.119.254.121] 
+  7    23 ms    22 ms    22 ms  10.160.24.5 
+  8   134 ms   101 ms   100 ms  10.255.232.201 
+  9    69 ms   100 ms    72 ms  180.149.48.18 
+ 10   164 ms   164 ms   164 ms  180.149.48.2 
+ 11   305 ms   305 ms   248 ms  180.149.48.13 
+ 12   248 ms   248 ms   250 ms  fourhundredge-0-0-0-19.4079.core2.newy32aoa.net.internet2.edu [163.253.1.41] 
+ 13   252 ms   249 ms   249 ms  fourhundredge-0-0-0-0.4079.core1.phil.net.internet2.edu [163.253.1.241] 
+ 14   250 ms   308 ms   257 ms  163.253.5.33 
+ 15   285 ms   409 ms   335 ms  162-223-17-79.static.firstlight.net [162.223.17.79] 
+ 16   275 ms   261 ms   261 ms  CORE0-POD-I-DCNS-8500.GW.CMU.NET [128.2.0.181] 
+ 17   261 ms   261 ms   262 ms  POD-D-DCNS-CORE0.GW.CMU.NET [128.2.0.210] 
+ 18   262 ms   261 ms   261 ms  WWW-CMU-PROD-VIP.ANDREW.CMU.EDU [128.2.42.52] 
+
+
+
+Tracing the route to 128.2.42.10
+
+ 1  ae-3.r20.parsfr04.fr.bb.gin.ntt.net (129.250.3.7) 7 msec  *  1 msec 
+ 2  ae-1.a01.parsfr05.fr.bb.gin.ntt.net (129.250.2.107) 4 msec  2 msec 
+    ae-0.a01.parsfr05.fr.bb.gin.ntt.net (129.250.2.179) 1 msec 
+ 3   *  *  * 
+ 4  be3183.ccr41.par01.atlas.cogentco.com (154.54.38.65) 2 msec 
+    be3184.ccr42.par01.atlas.cogentco.com (154.54.38.157) 2 msec  2 msec 
+ 5  be12489.ccr42.lon13.atlas.cogentco.com (154.54.57.69) 13 msec  50 msec 
+    be12497.ccr41.lon13.atlas.cogentco.com (154.54.56.129) 13 msec 
+ 6  be2101.ccr32.bos01.atlas.cogentco.com (154.54.82.38) 75 msec 
+    be2099.ccr31.bos01.atlas.cogentco.com (154.54.82.34) 75 msec  75 msec 
+ 7  be3599.ccr21.alb02.atlas.cogentco.com (66.28.4.237) 79 msec 
+    be3600.ccr22.alb02.atlas.cogentco.com (154.54.0.221) 79 msec 
+    be3599.ccr21.alb02.atlas.cogentco.com (66.28.4.237) 78 msec 
+ 8  be2878.ccr21.cle04.atlas.cogentco.com (154.54.26.129) 96 msec 
+    be2879.ccr22.cle04.atlas.cogentco.com (154.54.29.173) 97 msec 
+    be2878.ccr21.cle04.atlas.cogentco.com (154.54.26.129) 97 msec 
+ 9  be2821.rcr21.pit02.atlas.cogentco.com (154.54.83.118) 99 msec  98 msec 
+    be2822.rcr21.pit02.atlas.cogentco.com (154.54.83.158) 96 msec 
+ 10 te0-0-2-0.nr11.b015486-0.pit02.atlas.cogentco.com (154.24.79.74) 97 msec  97 msec  97 msec 
+ 11 asdf 38.140.44.154 98 msec  99 msec  98 msec 
+ 12 CORE255-POD-I-CYH-8500.GW.CMU.NET (128.2.255.177) 98 msec  116 msec  99 msec 
+ 13 POD-D-CYH-CORE255.GW.CMU.NET (128.2.255.202) 99 msec  99 msec  99 msec 
+ 14 CMU.EDU (128.2.42.10) 99 msec  99 msec  98 msec 
+
+
+Tracing route to cmu.edu [128.2.42.10]
+
+  1     6 ms     4 ms    10 ms  192.168.213.90 
+  2   224 ms    57 ms   368 ms  192.168.36.15 
+  3  1210 ms    84 ms    33 ms  192.168.34.177 
+  4   319 ms    92 ms   209 ms  192.168.48.9 
+  5   189 ms   205 ms    89 ms  192.168.48.2 
+  6   233 ms   228 ms   220 ms  192.168.48.33 
+  7    77 ms   100 ms   207 ms  125.18.92.93 
+  8   410 ms   397 ms   422 ms  116.119.57.43 
+  9     *      384 ms     *     port-channel11.core3.lax2.he.net [64.62.148.113] 
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12   447 ms     *      354 ms  port-channel11.core4.dal1.he.net [184.104.199.245] 
+ 13     *      372 ms     *     port-channel7.core3.mci3.he.net [184.104.195.214] 
+ 14   444 ms   408 ms     *     100ge0-79.core1.stl1.he.net [184.104.188.81] 
+ 15   649 ms   406 ms     *     port-channel8.core2.stl1.he.net [184.104.188.161] 
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18   509 ms   336 ms   473 ms  216.56.50.86 
+ 19   348 ms   307 ms   310 ms  100.121.0.33 
+ 20   505 ms   401 ms   409 ms  CORE255-POD-I-DCNS-8500.GW.CMU.NET [128.2.255.181] 
+ 21   381 ms   520 ms   541 ms  POD-D-CYH-CORE255.GW.CMU.NET [128.2.255.202] 
+ 22   459 ms   318 ms   409 ms  CMU-VIP.ANDREW.CMU.EDU [128.2.42.10] 
+
+
+
+traceroute to cmu.edu (128.2.42.10), 20 hops max, 60 byte packets
+ 1  199.38.181.1 (199.38.181.1)  12.295 ms  12.269 ms
+ 2  * *
+ 3  * *
+ 4  fourhundredge-0-0-0-2.4079.core2.newy32aoa.net.internet2.edu (163.253.2.150)  5.353 ms  5.338 ms
+ 5  fourhundredge-0-0-0-0.4079.core1.phil.net.internet2.edu (163.253.1.241)  6.256 ms  6.247 ms
+ 6  198.71.47.209 (198.71.47.209)  2.312 ms  2.299 ms
+ 7  100.121.0.33 (100.121.0.33)  15.954 ms  15.941 ms
+ 8  CORE0-POD-I-DCNS-8500.GW.CMU.NET (128.2.0.181)  16.047 ms  16.066 ms
+ 9  POD-D-DCNS-CORE0.GW.CMU.NET (128.2.0.210)  104.820 ms  104.855 ms
+10  CMU-VIP.ANDREW.CMU.EDU (128.2.42.10)  16.437 ms  16.424 ms
+
+Tracing the route to 128.2.42.52
+
+ 1  if-be-5-2.ecore2.aseoa-seoul.as6453.net (116.0.79.129) 148 msec  
+ 2   *  *  * 
+ 3  if-ae-36-2.tcore1.av3-toyohashi.as6453.net (180.87.181.207) 142 msec 
+ 4  if-ae-2-2.tcore2.av3-toyohashi.as6453.net (180.87.3.131) 150 msec  
+ 5   *  *  * 
+ 6  if-ae-6-20.tcore1.eql-losangeles.as6453.net (64.86.252.66) 152 msec  
+ 7  206.111.11.68.ptr.us.xo.net (206.111.11.68) 154 msec  160 msec  
+ 8  103.ae9.MCR2.CLEVELAND-OH.US.XO.NET (140.222.116.69) 200 msec  
+ 9  ip66-3-25-94.z25-3-66.customer.algx.net (66.3.25.94) 195 msec  
+ 10 CORE255-POD-I-DCNS-8500.GW.CMU.NET (128.2.255.181) 194 msec  
+ 11 POD-D-DCNS-CORE255.GW.CMU.NET (128.2.255.210) 213 msec  
+ 12 WWW-CMU-PROD-VIP.ANDREW.CMU.EDU (128.2.42.52) 209 msec  
+

@@ -1,0 +1,106 @@
+
+traceroute to talktalkgroup.com (219.94.128.141), 64 hops max
+  1   172.22.96.1  0.571ms  0.344ms  1.070ms
+  2   192.168.1.1  2.795ms  2.750ms  3.021ms
+  3   *  *  *
+  4   192.168.41.1  6.777ms  28.876ms  4.429ms
+  5   192.168.8.18  5.005ms  3.855ms  3.801ms
+  6   103.232.241.2  3.802ms  3.775ms  3.779ms
+  7   10.119.254.121  4.213ms  3.363ms  32.096ms
+  8   10.160.24.5  6.955ms  6.854ms  7.024ms
+  9   10.255.222.33  5.821ms  5.490ms  5.394ms
+ 10   115.247.100.29  46.288ms  19.766ms  18.331ms
+ 11   *  *  *
+ 12   *  *  *
+ 13   *  *  *
+ 14   *  *  *
+ 15   *  *  *
+ 16   202.232.1.69  67.885ms  68.939ms  61.738ms
+ 17   58.138.80.209  49.065ms  48.971ms  48.801ms
+ 18   58.138.80.185  125.120ms  127.965ms  140.682ms
+ 19   58.138.88.58  131.802ms  132.260ms  131.925ms
+ 20   58.138.106.162  177.053ms  145.433ms  143.894ms
+ 21   210.138.32.46  246.323ms  248.226ms  247.501ms
+ 22   *  *  *
+ 23   *  *  *
+ 24   219.94.128.141  246.802ms  245.305ms  245.458ms
+
+
+Tracing the route to 219.94.128.141
+
+ 1  ae-5.r21.londen12.uk.bb.gin.ntt.net (129.250.4.36) 32 msec 
+ 2   *  *  * 
+ 3  ae-1.r24.asbnva02.us.bb.gin.ntt.net (129.250.2.37) 227 msec 
+    ae-2.r25.lsanca07.us.bb.gin.ntt.net (129.250.3.189) 334 msec 
+    ae-1.r24.asbnva02.us.bb.gin.ntt.net (129.250.2.37) 234 msec 
+ 4   *  *  * 
+ 5  ae-5.r27.osakjp02.jp.bb.gin.ntt.net (129.250.2.177) 380 msec  *  * 
+ 6  ae-2.r02.osakjp02.jp.bb.gin.ntt.net (129.250.2.128) 359 msec  380 msec 
+    ae-1.r02.osakjp02.jp.bb.gin.ntt.net (129.250.2.40) 382 msec 
+ 7  ce-0-8-0-0.r02.osakjp02.jp.ce.gin.ntt.net (61.120.147.26) 408 msec  381 msec  393 msec 
+ 8  osnrt101b-hrt1.bb.sakura.ad.jp (157.17.153.2) 408 msec 
+    osnrt102b-hrt1.bb.sakura.ad.jp (157.17.153.10) 380 msec  424 msec 
+ 9  osnrt104e-nrt102b.bb.sakura.ad.jp (157.17.150.30) 424 msec 
+    osnrt103e-nrt101b.bb.sakura.ad.jp (157.17.149.26) 384 msec 
+    osnrt104e-nrt101b.bb.sakura.ad.jp (157.17.149.30) 371 msec 
+ 10 robert-schumann.com (219.94.128.141) 386 msec  379 msec  406 msec 
+
+
+Tracing the route to 219.94.128.141
+
+ 1  ae-2.r21.frnkge13.de.bb.gin.ntt.net (129.250.6.41) 3 msec  4 msec  2 msec 
+ 2  ae-12.r21.parsfr04.fr.bb.gin.ntt.net (129.250.5.27) 14 msec 
+    ae-0.r20.frnkge13.de.bb.gin.ntt.net (129.250.6.1) 2 msec 
+    ae-12.r21.parsfr04.fr.bb.gin.ntt.net (129.250.5.27) 15 msec 
+ 3  ae-13.r24.asbnva02.us.bb.gin.ntt.net (129.250.6.6) 90 msec 
+ 4   *  *  * 
+ 5  ae-5.r26.osakjp02.jp.bb.gin.ntt.net (129.250.2.119) 254 msec  252 msec 
+    ae-1.r24.asbnva02.us.bb.gin.ntt.net (129.250.2.37) 226 msec 
+ 6  ae-1.r02.osakjp02.jp.bb.gin.ntt.net (129.250.2.40) 253 msec  251 msec  253 msec 
+ 7  ce-0-8-0-0.r02.osakjp02.jp.ce.gin.ntt.net (61.120.147.26) 252 msec  251 msec 
+ 8  osnrt101b-hrt1.bb.sakura.ad.jp (157.17.153.2) 253 msec 
+    ae-1.r02.osakjp02.jp.bb.gin.ntt.net (129.250.2.40) 426 msec 
+    osnrt101b-hrt1.bb.sakura.ad.jp (157.17.153.2) 255 msec 
+ 9  ce-0-8-0-0.r02.osakjp02.jp.ce.gin.ntt.net (61.120.147.26) 419 msec 
+    osnrt104e-nrt102b.bb.sakura.ad.jp (157.17.150.30) 255 msec 
+    osnrt104e-nrt101b.bb.sakura.ad.jp (157.17.149.30) 251 msec 
+ 10 robert-schumann.com (219.94.128.141) 251 msec  253 msec  251 msec 
+
+
+Tracing the route to 219.94.128.141
+
+ 1   *  *  * 
+ 2  ae-0.r20.parsfr04.fr.bb.gin.ntt.net (129.250.3.47) 3 msec  
+ 3  ae-14.r21.nwrknj03.us.bb.gin.ntt.net (129.250.4.194) 73 msec  73 msec  76 msec 
+ 4  ae-0.r20.nwrknj03.us.bb.gin.ntt.net (129.250.6.16) 72 msec  74 msec  74 msec 
+ 5  ae-4.r24.sttlwa01.us.bb.gin.ntt.net (129.250.6.177) 134 msec 
+ 6  ae-0.r25.sttlwa01.us.bb.gin.ntt.net (129.250.3.83) 134 msec 
+ 7   *  *  * 
+ 8  ae-1.r02.osakjp02.jp.bb.gin.ntt.net (129.250.2.40) 238 msec  238 msec  238 msec 
+ 9  ce-0-8-0-0.r02.osakjp02.jp.ce.gin.ntt.net (61.120.147.26) 238 msec  238 msec  239 msec 
+ 10 osnrt102b-hrt1.bb.sakura.ad.jp (157.17.153.10) 239 msec 
+    osnrt101b-hrt1.bb.sakura.ad.jp (157.17.153.2) 238 msec  238 msec 
+ 11 osnrt103e-nrt101b.bb.sakura.ad.jp (157.17.149.26) 238 msec 
+    osnrt104e-nrt102b.bb.sakura.ad.jp (157.17.150.30) 238 msec 
+    osnrt103e-nrt102b.bb.sakura.ad.jp (157.17.150.26) 237 msec 
+ 12 robert-schumann.com (219.94.128.141) 240 msec  239 msec  240 msec 
+
+
+Tracing route to robert-schumann.com [219.94.128.141]
+
+  1     6 ms    72 ms    14 ms  192.168.213.90 
+  2   319 ms   176 ms   400 ms  192.168.36.15 
+  3   237 ms   416 ms    92 ms  192.168.34.177 
+  4    67 ms    90 ms    34 ms  192.168.48.3 
+  5   148 ms    90 ms   103 ms  192.168.48.2 
+  6    77 ms    73 ms   176 ms  192.168.48.49 
+  7   248 ms   195 ms    98 ms  182.79.27.25 
+  8   245 ms   101 ms   205 ms  116.119.119.206 
+  9   176 ms   103 ms   221 ms  2497.sgw.equinix.com [27.111.228.196] 
+ 10   223 ms   142 ms   201 ms  tky009bb00.IIJ.Net [58.138.80.185] 
+ 11   365 ms   407 ms   307 ms  osk004bb00.IIJ.Net [58.138.88.58] 
+ 12   380 ms   300 ms   314 ms  osk004ip57.IIJ.Net [58.138.106.162] 
+ 13   144 ms   219 ms   342 ms  210.138.32.46 
+ 14   423 ms   422 ms   227 ms  osnrt101b-drt3.bb.sakura.ad.jp [157.17.153.6] 
+ 15   466 ms   215 ms   397 ms  osnrt103e-nrt101b.bb.sakura.ad.jp [157.17.149.26] 
+ 16   217 ms   202 ms   306 ms  www901.sakura.ne.jp [219.94.128.141] 

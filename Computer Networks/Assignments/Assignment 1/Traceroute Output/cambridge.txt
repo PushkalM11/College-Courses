@@ -1,0 +1,126 @@
+traceroute to cam.ac.uk (128.232.132.8), 64 hops max
+  1   172.22.96.1  0.494ms  0.457ms  0.362ms
+  2   192.168.1.1  14.526ms  3.194ms  5.727ms
+  3   *  *  *
+  4   192.168.41.1  4.309ms  3.353ms  3.596ms
+  5   192.168.8.18  4.840ms  3.234ms  8.377ms
+  6   103.232.241.2  6.077ms  4.456ms  3.334ms
+  7   10.119.254.121  4.681ms  3.614ms  4.569ms
+  8   10.160.24.5  20.491ms  27.774ms  19.734ms
+  9   10.255.232.201  20.319ms  21.450ms  20.453ms
+ 10   180.149.48.18  20.586ms  20.448ms  20.930ms
+ 11   180.149.48.2  161.507ms  161.027ms  160.978ms
+ 12   180.149.48.29  180.306ms  179.606ms  194.689ms
+ 13   62.40.125.214  179.704ms  188.213ms  181.309ms
+ 14   62.40.98.239  180.661ms  181.053ms  180.771ms
+ 15   62.40.98.106  180.069ms  185.460ms  180.152ms
+ 16   62.40.98.64  180.504ms  179.934ms  180.298ms
+ 17   62.40.124.198  179.754ms  179.600ms  180.048ms
+ 18   146.97.33.18  182.885ms  187.747ms  184.342ms
+ 19   146.97.35.246  189.252ms  183.294ms  302.737ms
+ 20   146.97.41.38  185.357ms  185.523ms  184.701ms
+ 21   131.111.6.182  185.036ms  184.804ms  185.211ms
+ 22   193.60.88.6  186.563ms  186.465ms  189.506ms
+ 23   193.60.88.6  233.111ms  185.705ms  186.117ms
+ 24   128.232.128.6  185.443ms  185.933ms  185.369ms
+ 25   128.232.128.10  188.124ms  185.700ms  186.318ms
+ 26   128.232.132.8  185.494ms  185.201ms  187.650ms
+
+
+
+Tracing the route to 128.232.132.8
+
+ 1  ae-9.r20.amstnl07.nl.bb.gin.ntt.net (129.250.4.10) 8 msec  7 msec 
+ 2  ae-0.a01.amstnl07.nl.bb.gin.ntt.net (129.250.7.87) 7 msec  11 msec 
+    ae-1.a02.londen12.uk.bb.gin.ntt.net (129.250.3.215) 5 msec 
+ 3   *  *  * 
+ 4  adm-bb4-link.ip.twelve99.net (62.115.120.228) 8 msec  8 msec 
+    adm-bb1-link.ip.twelve99.net (62.115.120.226) 8 msec 
+ 5  ldn-bb1-link.ip.twelve99.net (213.155.136.98) 9 msec  *  * 
+ 6  ae28.londtw-sbr2.ja.net (146.97.33.62) 6 msec  * 
+    ldn-b11-link.ip.twelve99.net (62.115.138.169) 8 msec 
+ 7  ae31.lowdss-sbr1.ja.net (146.97.33.29) 18 msec  10 msec  9 msec 
+ 8  ae24.londtt-sbr1.ja.net (146.97.35.193) 8 msec 
+    ae26.lowdss-ban1.ja.net (146.97.35.246) 9 msec  9 msec 
+ 9  uoc.ja.net (146.97.41.38) 11 msec 
+    ae28.londtw-sbr2.ja.net (146.97.33.62) 7 msec  7 msec 
+ 10 c-mi.b-jc.net.cam.ac.uk (131.111.6.182) 11 msec 
+    ae31.lowdss-sbr1.ja.net (146.97.33.29) 12 msec  10 msec 
+ 11 ae26.lowdss-ban1.ja.net (146.97.35.246) 11 msec  12 msec  12 msec 
+ 12 d-dw.s-dr.net.cam.ac.uk (193.60.88.6) 12 msec  12 msec  11 msec 
+ 13 s-dr.f-sv-net.net.cam.ac.uk (128.232.128.6) 13 msec  11 msec 
+    c-mi.b-jc.net.cam.ac.uk (131.111.6.182) 13 msec 
+ 14 d-dw.s-dr.net.cam.ac.uk (193.60.88.6) 15 msec 
+ 15 d-dw.s-dr.net.cam.ac.uk (193.60.88.6) 15 msec  13 msec  * 
+ 16 s-dr.f-sv-net.net.cam.ac.uk (128.232.128.6) 14 msec  15 msec  13 msec 
+
+
+Tracing the route to 128.232.132.8
+
+ 1  ffm-b5-link.ip.twelve99.net (62.115.147.64) 2 msec  1 msec  1 msec 
+ 2  ffm-bb1-link.ip.twelve99.net (62.115.114.88) 2 msec  
+    ffm-bb2-link.ip.twelve99.net (62.115.114.90) 1 msec
+ 3  prs-bb1-link.ip.twelve99.net (62.115.123.13) 9 msec 
+    prs-bb2-link.ip.twelve99.net (62.115.122.138) 10 msec 
+    prs-bb1-link.ip.twelve99.net (62.115.123.13) 10 msec 
+ 4  ldn-bb1-link.ip.twelve99.net (62.115.135.24) 17 msec 
+    ldn-bb2-link.ip.twelve99.net (62.115.133.238) 16 msec 
+ 5  ldn-b11-link.ip.twelve99.net (62.115.138.169) 16 msec 
+    ldn-b11-link.ip.twelve99.net (62.115.141.247) 16 msec  * 
+ 6  jisc-ic-345130.ip.twelve99-cust.net (62.115.175.107) 16 msec  16 msec  16 msec 
+ 7  ae24.londtt-sbr1.ja.net (146.97.35.193) 16 msec  16 msec  17 msec 
+ 8  ae28.londtw-sbr2.ja.net (146.97.33.62) 27 msec  16 msec  16 msec 
+ 9  ae31.lowdss-sbr1.ja.net (146.97.33.29) 19 msec  19 msec  19 msec 
+ 10 ae26.lowdss-ban1.ja.net (146.97.35.246) 20 msec  19 msec  20 msec 
+ 11 uoc.ja.net (146.97.41.38) 29 msec  22 msec  21 msec 
+ 12 c-mi.b-jc.net.cam.ac.uk (131.111.6.182) 22 msec  21 msec  21 msec 
+ 13 d-dw.s-dr.net.cam.ac.uk (193.60.88.6) 22 msec  54 msec  22 msec 
+ 14 d-dw.s-dr.net.cam.ac.uk (193.60.88.6) 22 msec  22 msec  22 msec 
+ 15 s-dr.f-sv-net.net.cam.ac.uk (128.232.128.6) 22 msec  22 msec  84 msec 
+
+
+Tracing the route to 128.232.132.8
+
+ 1  ae-3.r21.parsfr04.fr.bb.gin.ntt.net (129.250.3.101) 1 msec  4 msec 
+    ae-3.r20.parsfr04.fr.bb.gin.ntt.net (129.250.3.7) 4 msec 
+ 2  ae-0.a00.parsfr05.fr.bb.gin.ntt.net (129.250.2.151) 5 msec  4 msec  6 msec 
+ 3  ae-26.edge7.Paris1.Level3.net (4.68.111.113) 4 msec  2 msec  2 msec 
+ 4   *  *  * 
+ 5  JANET.ear3.London2.Level3.net (212.187.216.238) 10 msec  11 msec  8 msec 
+ 6  ae24.londtt-sbr1.ja.net (146.97.35.193) 30 msec  8 msec  7 msec 
+ 7  ae28.londtw-sbr2.ja.net (146.97.33.62) 9 msec  10 msec  9 msec 
+ 8  ae31.lowdss-sbr1.ja.net (146.97.33.29) 28 msec  22 msec  11 msec 
+ 9  ae26.lowdss-ban1.ja.net (146.97.35.246) 11 msec  11 msec  11 msec 
+ 10 uoc.ja.net (146.97.41.38) 13 msec  38 msec  56 msec 
+ 11 c-mi.b-jc.net.cam.ac.uk (131.111.6.182) 51 msec  55 msec  52 msec 
+ 12 d-dw.s-dr.net.cam.ac.uk (193.60.88.6) 15 msec  19 msec  15 msec 
+ 13 d-dw.s-dr.net.cam.ac.uk (193.60.88.6) 14 msec  13 msec  14 msec 
+ 14 s-dr.f-sv-net.net.cam.ac.uk (128.232.128.6) 14 msec  15 msec  14 msec 
+
+Tracing route to cam.ac.uk [128.232.132.8]
+
+  1    38 ms     5 ms     4 ms  192.168.213.90
+  2   142 ms   210 ms   230 ms  192.168.36.15
+  3   114 ms    51 ms    68 ms  192.168.34.177
+  4   111 ms    63 ms    65 ms  192.168.48.6
+  5    57 ms    57 ms    63 ms  192.168.48.2
+  6    87 ms    70 ms    26 ms  192.168.48.33
+  7   102 ms    68 ms    28 ms  125.18.92.93
+  8   199 ms   210 ms     *     182.79.134.109
+  9   179 ms   211 ms   207 ms  ae60.mpr1.mrs1.fr.zip.zayo.com [94.31.40.4]
+ 10   208 ms   195 ms   209 ms  ae3.cs1.cdg11.fr.zip.zayo.com [64.125.27.14]
+ 11   205 ms   325 ms   208 ms  ae0.cs1.cdg12.fr.eth.zayo.com [64.125.29.84]
+ 12     *        *      241 ms  ae2.cs3.lhr11.uk.eth.zayo.com [64.125.29.25]
+ 13   258 ms   246 ms   308 ms  ae17.mpr1.lhr28.uk.zip.zayo.com [64.125.22.65]
+ 14   207 ms   204 ms   210 ms  linx-gw1.ja.net [195.66.224.15]
+ 15   274 ms   210 ms   211 ms  ae23.londtt-sbr1.ja.net [146.97.35.169]
+ 16   190 ms   201 ms   208 ms  ae28.londtw-sbr2.ja.net [146.97.33.62]
+ 17   393 ms   393 ms   290 ms  ae31.lowdss-sbr1.ja.net [146.97.33.29]
+ 18   220 ms   207 ms   227 ms  ae26.lowdss-ban1.ja.net [146.97.35.246]
+ 19   248 ms   237 ms   276 ms  uoc.ja.net [146.97.41.38]
+ 20   451 ms   268 ms   207 ms  c-mi.b-jc.net.cam.ac.uk [131.111.6.182]
+ 21   238 ms   218 ms   467 ms  d-dw.s-dr.net.cam.ac.uk [193.60.88.6]
+ 22   196 ms   345 ms   208 ms  d-dw.s-dr.net.cam.ac.uk [193.60.88.6]
+ 23   384 ms   348 ms   225 ms  128.232.128.6
+ 24   634 ms   522 ms   346 ms  128.232.128.10
+ 25   355 ms   501 ms   241 ms  128.232.132.8

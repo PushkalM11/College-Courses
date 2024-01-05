@@ -1,0 +1,150 @@
+2023-12-04 12:08:00.123 INFO     [dbe3b52a9bf6f305] Retrying with token (256 bytes)
+2023-12-04 12:08:00.157 INFO     [dbe3b52a9bf6f305] ALPN negotiated protocol None
+2023-12-04 12:14:01.183 INFO     [c020046439cf3221] Retrying with token (256 bytes)
+2023-12-04 12:14:01.201 INFO     [c020046439cf3221] ALPN negotiated protocol None
+2023-12-04 12:14:24.993 INFO     [c020046439cf3221] Connection close sent (code 0x0, reason )
+2023-12-04 12:15:37.790 INFO     [d36b560a80d2456f] Retrying with token (256 bytes)
+2023-12-04 12:15:37.815 INFO     [d36b560a80d2456f] ALPN negotiated protocol None
+2023-12-04 12:16:02.192 INFO     [d36b560a80d2456f] Connection close sent (code 0x0, reason )
+2023-12-04 12:22:30.201 INFO     [cb171cdd29845856] Retrying with token (256 bytes)
+2023-12-04 12:22:30.233 INFO     [cb171cdd29845856] ALPN negotiated protocol None
+2023-12-04 12:22:30.715 ERROR    Unhandled exception in event loop
+Traceback (most recent call last):
+  File "uvloop/handles/udp.pyx", line 375, in uvloop.loop.__uv_udp_on_receive
+  File "uvloop/handles/udp.pyx", line 260, in uvloop.loop.UDPTransport._on_receive
+  File "uvloop/loop.pyx", line 117, in uvloop.loop.run_in_context2
+  File "/Users/pushkalm11/miniconda3/envs/CN/lib/python3.10/site-packages/aioquic/asyncio/protocol.py", line 136, in datagram_received
+    self._process_events()
+  File "/Users/pushkalm11/miniconda3/envs/CN/lib/python3.10/site-packages/aioquic/asyncio/protocol.py", line 211, in _process_events
+    self.quic_event_received(event)
+  File "/Users/pushkalm11/Downloads/CN-final-project-master/src/client.py", line 197, in quic_event_received
+    new_image = np.roll(decoded_frame, axis = 2)
+TypeError: roll() missing 1 required positional argument: 'shift'
+2023-12-04 12:22:30.740 ERROR    Unhandled exception in event loop
+Traceback (most recent call last):
+  File "uvloop/handles/udp.pyx", line 375, in uvloop.loop.__uv_udp_on_receive
+  File "uvloop/handles/udp.pyx", line 260, in uvloop.loop.UDPTransport._on_receive
+  File "uvloop/loop.pyx", line 117, in uvloop.loop.run_in_context2
+  File "/Users/pushkalm11/miniconda3/envs/CN/lib/python3.10/site-packages/aioquic/asyncio/protocol.py", line 136, in datagram_received
+    self._process_events()
+  File "/Users/pushkalm11/miniconda3/envs/CN/lib/python3.10/site-packages/aioquic/asyncio/protocol.py", line 211, in _process_events
+    self.quic_event_received(event)
+  File "/Users/pushkalm11/Downloads/CN-final-project-master/src/client.py", line 197, in quic_event_received
+    new_image = np.roll(decoded_frame, axis = 2)
+TypeError: roll() missing 1 required positional argument: 'shift'
+2023-12-04 12:22:30.770 ERROR    Unhandled exception in event loop
+Traceback (most recent call last):
+  File "uvloop/handles/udp.pyx", line 375, in uvloop.loop.__uv_udp_on_receive
+  File "uvloop/handles/udp.pyx", line 260, in uvloop.loop.UDPTransport._on_receive
+  File "uvloop/loop.pyx", line 117, in uvloop.loop.run_in_context2
+  File "/Users/pushkalm11/miniconda3/envs/CN/lib/python3.10/site-packages/aioquic/asyncio/protocol.py", line 136, in datagram_received
+    self._process_events()
+  File "/Users/pushkalm11/miniconda3/envs/CN/lib/python3.10/site-packages/aioquic/asyncio/protocol.py", line 211, in _process_events
+    self.quic_event_received(event)
+  File "/Users/pushkalm11/Downloads/CN-final-project-master/src/client.py", line 197, in quic_event_received
+    new_image = np.roll(decoded_frame, axis = 2)
+TypeError: roll() missing 1 required positional argument: 'shift'
+2023-12-04 12:24:05.014 INFO     [ae13eb8fb718ab46] Retrying with token (256 bytes)
+2023-12-04 12:24:05.027 INFO     [ae13eb8fb718ab46] ALPN negotiated protocol None
+2023-12-04 12:24:34.112 INFO     [cec7a20668a7bcac] Retrying with token (256 bytes)
+2023-12-04 12:24:34.125 INFO     [cec7a20668a7bcac] ALPN negotiated protocol None
+2023-12-04 12:24:47.218 INFO     [991fbd7143a3de4b] Retrying with token (256 bytes)
+2023-12-04 12:24:47.241 INFO     [991fbd7143a3de4b] ALPN negotiated protocol None
+2023-12-04 12:25:00.403 INFO     [2d0b529857fa32b5] Retrying with token (256 bytes)
+2023-12-04 12:25:00.426 INFO     [2d0b529857fa32b5] ALPN negotiated protocol None
+2023-12-04 12:25:23.697 INFO     [94ccd0c33cb19f2a] Retrying with token (256 bytes)
+2023-12-04 12:25:23.715 INFO     [94ccd0c33cb19f2a] ALPN negotiated protocol None
+2023-12-04 12:26:15.542 INFO     [45acca2c6fbce3ea] Retrying with token (256 bytes)
+2023-12-04 12:26:15.565 INFO     [45acca2c6fbce3ea] ALPN negotiated protocol None
+2023-12-04 12:26:28.953 INFO     [0b15310a6bd9dc8a] Retrying with token (256 bytes)
+2023-12-04 12:26:28.975 INFO     [0b15310a6bd9dc8a] ALPN negotiated protocol None
+2023-12-04 12:27:16.386 INFO     [fa5ada8a5feb2eb8] Retrying with token (256 bytes)
+2023-12-04 12:27:16.405 INFO     [fa5ada8a5feb2eb8] ALPN negotiated protocol None
+2023-12-04 12:27:49.320 INFO     [ffae4a531ee025c2] Retrying with token (256 bytes)
+2023-12-04 12:27:49.339 INFO     [ffae4a531ee025c2] ALPN negotiated protocol None
+2023-12-04 12:28:08.014 INFO     [78089918d51a3a4d] Retrying with token (256 bytes)
+2023-12-04 12:28:08.036 INFO     [78089918d51a3a4d] ALPN negotiated protocol None
+2023-12-04 12:28:25.988 INFO     [22f6af743e3ae8f9] Retrying with token (256 bytes)
+2023-12-04 12:28:26.006 INFO     [22f6af743e3ae8f9] ALPN negotiated protocol None
+2023-12-04 12:28:48.692 INFO     [7c766b54d3959aa4] Retrying with token (256 bytes)
+2023-12-04 12:28:48.716 INFO     [7c766b54d3959aa4] ALPN negotiated protocol None
+2023-12-04 12:28:57.916 INFO     [87e9ddf6157bf542] Retrying with token (256 bytes)
+2023-12-04 12:28:57.935 INFO     [87e9ddf6157bf542] ALPN negotiated protocol None
+2023-12-04 12:29:08.897 INFO     [91e0810138dc7ff8] Retrying with token (256 bytes)
+2023-12-04 12:29:08.919 INFO     [91e0810138dc7ff8] ALPN negotiated protocol None
+2023-12-04 12:29:18.801 INFO     [d7c5d9a661d4fefa] Retrying with token (256 bytes)
+2023-12-04 12:29:18.821 INFO     [d7c5d9a661d4fefa] ALPN negotiated protocol None
+2023-12-04 12:29:42.576 INFO     [d7c5d9a661d4fefa] Connection close sent (code 0x0, reason )
+2023-12-04 12:30:19.995 INFO     [fb57be1875febdfb] Retrying with token (256 bytes)
+2023-12-04 12:30:20.014 INFO     [fb57be1875febdfb] ALPN negotiated protocol None
+2023-12-04 12:31:39.130 INFO     [a4db3cdc1da5fdf0] Retrying with token (256 bytes)
+2023-12-04 12:31:39.150 INFO     [a4db3cdc1da5fdf0] ALPN negotiated protocol None
+2023-12-04 12:32:08.911 INFO     [ff390a6600b68a2e] Retrying with token (256 bytes)
+2023-12-04 12:32:08.934 INFO     [ff390a6600b68a2e] ALPN negotiated protocol None
+2023-12-04 12:34:27.362 INFO     [f91f59454e2b48ed] Retrying with token (256 bytes)
+2023-12-04 12:34:27.389 INFO     [f91f59454e2b48ed] ALPN negotiated protocol None
+2023-12-04 12:35:03.371 INFO     [57760267c935dd1e] Retrying with token (256 bytes)
+2023-12-04 12:35:03.393 INFO     [57760267c935dd1e] ALPN negotiated protocol None
+2023-12-04 12:35:24.385 INFO     [85391212295ddd23] Retrying with token (256 bytes)
+2023-12-04 12:35:24.411 INFO     [85391212295ddd23] ALPN negotiated protocol None
+2023-12-04 12:35:48.293 INFO     [85391212295ddd23] Connection close sent (code 0x0, reason )
+2023-12-04 12:36:55.767 INFO     [d5a5ca68bd5dc9ff] Retrying with token (256 bytes)
+2023-12-04 12:36:55.797 INFO     [d5a5ca68bd5dc9ff] ALPN negotiated protocol None
+2023-12-04 12:38:33.850 INFO     [fd48696ac30dcfc2] Retrying with token (256 bytes)
+2023-12-04 12:38:33.869 INFO     [fd48696ac30dcfc2] ALPN negotiated protocol None
+2023-12-04 12:39:10.989 INFO     [faedab0dc542dc22] Retrying with token (256 bytes)
+2023-12-04 12:39:11.006 INFO     [faedab0dc542dc22] ALPN negotiated protocol None
+2023-12-04 12:39:31.525 INFO     [cd545fa72ead6deb] Retrying with token (256 bytes)
+2023-12-04 12:39:31.545 INFO     [cd545fa72ead6deb] ALPN negotiated protocol None
+2023-12-04 12:39:31.899 INFO     [cd545fa72ead6deb] Connection close sent (code 0x0, reason )
+2023-12-04 12:39:35.578 INFO     [19f564066e979dcf] Retrying with token (256 bytes)
+2023-12-04 12:39:35.597 INFO     [19f564066e979dcf] ALPN negotiated protocol None
+2023-12-04 12:39:35.932 INFO     [19f564066e979dcf] Connection close sent (code 0x0, reason )
+2023-12-04 12:40:00.517 INFO     [ffbac9cfb12a1c33] Retrying with token (256 bytes)
+2023-12-04 12:40:00.541 INFO     [ffbac9cfb12a1c33] ALPN negotiated protocol None
+2023-12-04 12:40:23.932 INFO     [ffbac9cfb12a1c33] Connection close sent (code 0x0, reason )
+2023-12-04 12:40:38.967 INFO     [b0e9af9f416c63f9] Retrying with token (256 bytes)
+2023-12-04 12:40:38.990 INFO     [b0e9af9f416c63f9] ALPN negotiated protocol None
+2023-12-04 12:41:03.091 INFO     [b0e9af9f416c63f9] Connection close sent (code 0x0, reason )
+2023-12-04 12:41:06.089 INFO     [aefce5edc0cc0216] Retrying with token (256 bytes)
+2023-12-04 12:41:06.112 INFO     [aefce5edc0cc0216] ALPN negotiated protocol None
+2023-12-04 12:41:29.949 INFO     [aefce5edc0cc0216] Connection close sent (code 0x0, reason )
+2023-12-04 12:41:41.171 INFO     [ffb219c4e9796a8c] Retrying with token (256 bytes)
+2023-12-04 12:41:41.191 INFO     [ffb219c4e9796a8c] ALPN negotiated protocol None
+2023-12-04 12:42:04.641 INFO     [ffb219c4e9796a8c] Connection close sent (code 0x0, reason )
+2023-12-04 12:49:51.026 INFO     [de91d0b9e92e1879] Retrying with token (256 bytes)
+2023-12-04 12:49:51.062 INFO     [de91d0b9e92e1879] ALPN negotiated protocol None
+2023-12-04 12:49:51.090 ERROR    Unhandled exception in event loop
+Traceback (most recent call last):
+  File "uvloop/handles/udp.pyx", line 375, in uvloop.loop.__uv_udp_on_receive
+  File "uvloop/handles/udp.pyx", line 260, in uvloop.loop.UDPTransport._on_receive
+  File "uvloop/loop.pyx", line 117, in uvloop.loop.run_in_context2
+  File "/Users/pushkalm11/miniconda3/envs/CN/lib/python3.10/site-packages/aioquic/asyncio/protocol.py", line 136, in datagram_received
+    self._process_events()
+  File "/Users/pushkalm11/miniconda3/envs/CN/lib/python3.10/site-packages/aioquic/asyncio/protocol.py", line 211, in _process_events
+    self.quic_event_received(event)
+  File "/Users/pushkalm11/Downloads/CN-final-project-master/src/client.py", line 190, in quic_event_received
+    decoded_frame = decoded_frame.reshape(300, 533, 3)
+ValueError: cannot reshape array of size 0 into shape (300,533,3)
+2023-12-04 12:50:23.970 INFO     [f8a71765ab60a61e] Retrying with token (256 bytes)
+2023-12-04 12:50:23.992 INFO     [f8a71765ab60a61e] ALPN negotiated protocol None
+2023-12-04 12:50:57.816 INFO     [4a642372412f98c9] Retrying with token (256 bytes)
+2023-12-04 12:50:57.827 INFO     [4a642372412f98c9] ALPN negotiated protocol None
+2023-12-04 12:52:28.548 INFO     [787c7377cf12a202] Retrying with token (256 bytes)
+2023-12-04 12:52:28.579 INFO     [787c7377cf12a202] ALPN negotiated protocol None
+2023-12-04 12:58:58.967 INFO     [f6f7c1ae8f052e0a] Retrying with token (256 bytes)
+2023-12-04 12:58:59.005 INFO     [f6f7c1ae8f052e0a] ALPN negotiated protocol None
+2023-12-04 13:01:26.747 INFO     [621c36e2393df215] Retrying with token (256 bytes)
+2023-12-04 13:01:26.766 INFO     [621c36e2393df215] ALPN negotiated protocol None
+2023-12-04 13:02:25.757 INFO     [6e1f731cb7d86c9f] Retrying with token (256 bytes)
+2023-12-04 13:02:25.776 INFO     [6e1f731cb7d86c9f] ALPN negotiated protocol None
+2023-12-04 15:28:19.580 INFO     [55068342972d4b5e] Retrying with token (256 bytes)
+2023-12-04 15:28:19.613 INFO     [55068342972d4b5e] ALPN negotiated protocol None
+2023-12-04 15:33:21.139 INFO     [0232e2e54403ef7d] Retrying with token (256 bytes)
+2023-12-04 15:33:21.174 INFO     [0232e2e54403ef7d] ALPN negotiated protocol None
+2023-12-04 15:36:49.728 INFO     [bd6c0dc9059c119d] Retrying with token (256 bytes)
+2023-12-04 15:36:49.756 INFO     [bd6c0dc9059c119d] ALPN negotiated protocol None
+2023-12-04 17:41:05.780 INFO     [482cfe9ea495f677] Retrying with token (256 bytes)
+2023-12-04 17:41:05.822 INFO     [482cfe9ea495f677] ALPN negotiated protocol None
+2023-12-07 11:05:56.545 INFO     [c048a704a4ec9a8c] Retrying with token (256 bytes)
+2023-12-07 11:05:56.568 INFO     [c048a704a4ec9a8c] ALPN negotiated protocol None

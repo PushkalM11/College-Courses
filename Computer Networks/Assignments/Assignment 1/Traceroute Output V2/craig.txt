@@ -1,0 +1,115 @@
+
+traceroute to craigslist.org (208.82.237.129), 64 hops max
+  1   172.22.96.1  0.456ms  0.334ms  0.410ms
+  2   192.168.1.1  2.540ms  2.143ms  2.185ms
+  3   *  *  *
+  4   192.168.41.1  14.333ms  36.221ms  4.071ms
+  5   192.168.8.19  8.445ms  3.194ms  2.900ms
+  6   103.232.241.2  3.614ms  3.123ms  2.964ms
+  7   10.119.254.121  2.953ms  2.995ms  5.249ms
+  8   10.160.24.5  9.813ms  6.267ms  4.820ms
+  9   10.255.222.33  5.293ms  6.097ms  4.858ms
+ 10   115.247.100.29  5.703ms  65.378ms  5.919ms
+ 11   *  *  *
+ 12   *  *  *
+ 13   *  *  *
+ 14   *  *  *
+ 15   128.241.7.158  216.587ms  292.550ms  307.320ms
+ 16   129.250.3.16  307.002ms  222.178ms  209.818ms
+ 17   129.250.6.116  222.401ms  224.010ms  222.095ms
+ 18   129.250.3.244  221.349ms  234.131ms  230.847ms
+ 19   165.254.239.30  221.669ms  217.750ms  234.903ms
+ 20   208.82.237.129  224.467ms  223.730ms  224.126ms
+
+
+
+Tracing the route to 208.82.237.129
+
+ 1  ae-3.r21.parsfr04.fr.bb.gin.ntt.net (129.250.3.101) 2 msec  1 msec  1 msec 
+ 2  ae-0.r20.parsfr04.fr.bb.gin.ntt.net (129.250.3.47) 1 msec  2 msec  1 msec 
+ 3   *  *  * 
+ 4  ae-13.r25.asbnva02.us.bb.gin.ntt.net (129.250.2.111) 83 msec  *  82 msec 
+ 5  ae-1.r24.asbnva02.us.bb.gin.ntt.net (129.250.2.37) 86 msec 
+ 6  ae-0.a05.asbnva02.us.bb.gin.ntt.net (129.250.3.242) 90 msec  86 msec  87 msec 
+ 7  asdf 165.254.239.30 82 msec  82 msec  82 msec 
+ 8  craigslist.org (208.82.237.129) 83 msec  83 msec  82 msec 
+
+
+Tracing route to craigslist.org [208.82.237.129]
+
+  1     8 ms     6 ms    79 ms  192.168.213.90 
+  2   168 ms   297 ms   220 ms  192.168.36.15 
+  3   173 ms   320 ms    89 ms  192.168.34.177 
+  4    34 ms   137 ms   204 ms  192.168.48.9 
+  5    76 ms   176 ms   308 ms  192.168.48.2 
+  6   132 ms   102 ms   111 ms  192.168.48.33 
+  7    39 ms   194 ms    66 ms  125.18.92.93 
+  8   275 ms    79 ms   202 ms  182.79.152.152 
+  9   150 ms   300 ms   306 ms  ae-3.a02.sngpsi07.sg.bb.gin.ntt.net [168.143.191.228] 
+ 10   198 ms   408 ms   200 ms  ae-5.r23.sngpsi07.sg.bb.gin.ntt.net [129.250.5.65] 
+ 11     *        *        *     Request timed out.
+ 12   297 ms     *      295 ms  ae-4.r25.lsanca07.us.bb.gin.ntt.net [129.250.3.193] 
+ 13   402 ms   511 ms   321 ms  ae-5.r25.asbnva02.us.bb.gin.ntt.net [129.250.3.188] 
+ 14   514 ms   365 ms   511 ms  ae-1.a05.asbnva02.us.bb.gin.ntt.net [129.250.3.244] 
+ 15   378 ms   405 ms   508 ms  165.254.239.30 
+ 16   401 ms   598 ms   514 ms  www.craigslist.org [208.82.237.129] 
+
+
+
+traceroute to craigslist.org (208.82.237.129), 20 hops max, 60 byte packets
+ 1  199.38.181.1 (199.38.181.1)  140.899 ms  140.861 ms
+ 2  * *
+ 3  * *
+ 4  ae-12.r21.nwrknj03.us.bb.gin.ntt.net (129.250.3.129)  1.041 ms  1.066 ms
+ 5  ae-3.r25.asbnva02.us.bb.gin.ntt.net (129.250.6.116)  7.895 ms  7.886 ms
+ 6  ae-1.a05.asbnva02.us.bb.gin.ntt.net (129.250.3.244)  5.855 ms  5.846 ms
+ 7  165.254.239.30 (165.254.239.30)  5.784 ms  5.775 ms
+ 8  www.craigslist.org (208.82.237.129)  5.768 ms  5.759 ms
+
+Tracing the route to 208.82.237.129
+
+ 1  if-be-5-2.ecore2.aseoa-seoul.as6453.net (116.0.79.129) 150 msec  
+ 2  if-ae-6-2.tcore2.tv2-tokyo.as6453.net (180.87.181.92) 150 msec  
+ 3  if-ae-36-2.tcore1.av3-toyohashi.as6453.net (180.87.181.207) 145 msec 
+ 4   *  *  * 
+ 5  if-ae-28-2.tcore2.lvw-losangeles.as6453.net (64.86.252.32) 148 msec  
+ 6  if-ae-2-2.tcore1.lvw-losangeles.as6453.net (66.110.59.1) 149 msec 
+ 7  66.110.59.250 152 msec  148 msec  150 msec 
+ 8  be-2111-cs01.losangeles.ca.ibone.comcast.net (96.110.33.1) 149 msec 
+    be-2311-cs03.losangeles.ca.ibone.comcast.net (96.110.33.9) 154 msec 
+    be-2211-cs02.losangeles.ca.ibone.comcast.net (96.110.33.5) 148 msec 
+ 9  be-1412-cr12.losangeles.ca.ibone.comcast.net (96.110.45.190) 145 msec
+    be-1212-cr12.losangeles.ca.ibone.comcast.net (96.110.45.174) 153 msec 
+ 10 be-302-cr13.houston.tx.ibone.comcast.net (96.110.37.189) 178 msec 
+    be-301-cr13.houston.tx.ibone.comcast.net (96.110.37.185) 181 msec  182 msec 
+ 11 be-1313-cs03.houston.tx.ibone.comcast.net (96.110.46.137) 178 msec 
+    be-1413-cs04.houston.tx.ibone.comcast.net (96.110.46.153) 181 msec 
+    be-1113-cs01.houston.tx.ibone.comcast.net (96.110.46.105) 181 msec 
+ 12 be-1212-cr12.houston.tx.ibone.comcast.net (96.110.46.118) 176 msec
+ 13 be-302-cr14.56marietta.ga.ibone.comcast.net (96.110.39.209) 210 msec
+ 14 be-1414-cs04.56marietta.ga.ibone.comcast.net (96.110.34.253) 210 msec
+    be-1114-cs01.56marietta.ga.ibone.comcast.net (96.110.34.241) 212 msec 
+ 15 be-1113-cr13.56marietta.ga.ibone.comcast.net (96.110.34.226) 203 msec 
+    be-1313-cr13.56marietta.ga.ibone.comcast.net (96.110.34.234) 209 msec  202 msec 
+ 16 be-303-cr11.doraville.ga.ibone.comcast.net (96.110.39.222) 212 msec 
+    be-304-cr11.doraville.ga.ibone.comcast.net (96.110.39.170) 207 msec 
+    be-301-cr11.doraville.ga.ibone.comcast.net (96.110.39.46) 209 msec 
+ 17 be-1411-cs04.doraville.ga.ibone.comcast.net (96.110.34.173) 205 msec 
+    be-1111-cs01.doraville.ga.ibone.comcast.net (96.110.34.161) 213 msec 
+    be-1411-cs04.doraville.ga.ibone.comcast.net (96.110.34.173) 204 msec 
+ 18 be-1413-cr13.doraville.ga.ibone.comcast.net (96.110.34.206) 211 msec 
+    be-1113-cr13.doraville.ga.ibone.comcast.net (96.110.34.194) 206 msec 
+    be-1413-cr13.doraville.ga.ibone.comcast.net (96.110.34.206) 209 msec 
+ 19 be-304-cr11.beaumeade.va.ibone.comcast.net (96.110.32.77) 208 msec
+ 20 be-1311-cs03.beaumeade.va.ibone.comcast.net (68.86.84.25) 210 msec
+    be-1111-cs01.beaumeade.va.ibone.comcast.net (68.86.84.17) 207 msec 
+ 21 be-31411-arsc1.capitolhghts.md.bad.comcast.net (96.110.40.18) 210 msec
+ 22 ae-501-ar01.capitolhghts.md.bad.comcast.net (96.110.235.18) 210 msec
+ 23 ae-0-eg-asbnvacy2pw.ashburn.va.bad.comcast.net (68.85.61.202) 208 msec
+ 24 96.108.111.5 215 msec
+ 25 50.203.200.110 210 msec
+ 26  *  *  * 
+ 27  *  *  * 
+ 28  *  *  * 
+ 29  *  *  * 
+ 30  *  *  *

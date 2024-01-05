@@ -1,0 +1,103 @@
+
+Tracing route to bsnl.co.in 218.248.240.19
+
+  1     3 ms     2 ms     8 ms  WirelessAP 192.168.1.1
+  2     *        *        *     Request timed out.
+  3     3 ms     2 ms     2 ms  192.168.41.1
+  4     3 ms     3 ms     4 ms  fw-in.comp.iith.ac.in 192.168.8.19
+  5   107 ms     3 ms     3 ms  noc-cr-in.comp.iith.ac.in 103.232.241.2
+  6     3 ms     3 ms     2 ms  noc-cn-in.comp.iith.ac.in 10.119.254.121
+  7    10 ms     5 ms     6 ms  10.160.24.5
+  8     9 ms     7 ms     5 ms  10.255.221.33
+  9     4 ms     6 ms     4 ms  117.236.235.254
+ 10    16 ms    16 ms    15 ms  117.216.207.115
+ 11    16 ms    15 ms    16 ms  117.216.207.214
+ 12    20 ms   218 ms   211 ms  218.248.51.246
+ 13    18 ms    18 ms    21 ms  bsnl.co.in 218.248.240.19
+ 14     *        *        *     Request timed out.
+ 15   153 ms    29 ms    28 ms  bsnl.co.in 218.248.240.19
+ 16    26 ms    27 ms    35 ms  bsnl.co.in 218.248.240.19
+
+
+Tracing the route to 218.248.240.19
+
+ 1  ae-9.r20.amstnl07.nl.bb.gin.ntt.net 129.250.4.10 27 msec  6 msec  5 msec 
+ 2  ae-4.r21.vienat02.at.bb.gin.ntt.net 129.250.7.28 25 msec  24 msec  24 msec 
+ 3  ae-10.r23.sngpsi07.sg.bb.gin.ntt.net 129.250.4.182 171 msec 
+ 4  ae-1.a02.sngpsi07.sg.bb.gin.ntt.net 129.250.5.66 185 msec  182 msec  181 msec 
+ 5  ae-1.bharti.sngpsi07.sg.bb.gin.ntt.net 168.143.191.229 172 msec  184 msec  199 msec 
+ 6  asdf 116.119.81.214 257 msec 
+    asdf 116.119.81.212 245 msec 
+    asdf 116.119.57.226 262 msec 
+ 7   *  *  * 
+ 8   *  *  * 
+ 9  218.248.51.246 250 msec  246 msec  248 msec 
+
+
+
+Tracing the route to 218.248.240.19
+
+ 1  ae-2.r20.frnkge13.de.bb.gin.ntt.net 129.250.6.13 2 msec 
+    ae-2.r21.frnkge13.de.bb.gin.ntt.net 129.250.6.41 1 msec  1 msec 
+ 2  ae-4.r20.vienat02.at.bb.gin.ntt.net 129.250.7.34 13 msec 
+    ae-3.r21.mlanit02.it.bb.gin.ntt.net 129.250.3.182 11 msec 
+    ae-4.r20.vienat02.at.bb.gin.ntt.net 129.250.7.34 14 msec 
+ 3  ae-0.r21.vienat02.at.bb.gin.ntt.net 129.250.7.13 17 msec 
+ 4   *  *  * 
+ 5  ae-0.a02.sngpsi07.sg.bb.gin.ntt.net 129.250.5.62 152 msec  168 msec  152 msec 
+ 6  ae-1.bharti.sngpsi07.sg.bb.gin.ntt.net 168.143.191.229 160 msec  151 msec  160 msec 
+ 7  asdf 116.119.81.214 224 msec 
+    asdf 116.119.52.198 215 msec 
+    sadf 116.119.81.212 218 msec 
+ 8   *  *  * 
+ 9   *  *  * 
+ 10 asdf 218.248.51.246 231 msec  248 msec  415 msec 
+
+
+Tracing the route to 218.248.240.19
+
+ 1  ae-3.r21.parsfr04.fr.bb.gin.ntt.net 129.250.3.101 1 msec  3 msec  1 msec 
+ 2   *  *  * 
+ 3  ae-10.r22.sngpsi07.sg.bb.gin.ntt.net 129.250.7.8 156 msec  *  * 
+ 4  ae-0.a02.sngpsi07.sg.bb.gin.ntt.net 129.250.5.62 159 msec  159 msec  157 msec 
+ 5  ae-1.bharti.sngpsi07.sg.bb.gin.ntt.net 168.143.191.229 155 msec  155 msec  178 msec 
+ 6  asdf 116.119.52.198 224 msec 
+    asdf 116.119.57.230 221 msec 
+    asdf 116.119.52.198 224 msec 
+ 7   *  *  * 
+ 8   *  *  * 
+ 9  asdf 218.248.51.246 238 msec  237 msec  235 msec 
+
+Tracing route to bsnl.co.in 2001:4490:effc:3:4000::47
+
+  1    94 ms   218 ms     5 ms  2401:4900:60f3:2ea0::53 
+  2     *        *        *     Request timed out.
+  3    62 ms    40 ms    56 ms  2401:4900:d0:4600::28d 
+  4   150 ms    93 ms   203 ms  2404:a800:3a00:201::ad 
+  5    77 ms   233 ms   305 ms  2404:a800::167 
+  6   212 ms   306 ms   219 ms  2403:0:100::516 
+  7   227 ms   204 ms   217 ms  2403:0:100::a92 
+  8     *        *        *     Request timed out.
+  9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
