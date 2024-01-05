@@ -1,2 +1,2 @@
 # College-Courses
-Place to store codes from college courses
+Repository to store courses I have done at IIT Hyderabad during BTech.
