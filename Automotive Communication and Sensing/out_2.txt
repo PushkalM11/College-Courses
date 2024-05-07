@@ -1,0 +1,6 @@
+Node 2 received data at clock 32
+Message is:
+Hello from node 3!
+Node 2 received data at clock 12
+Message is:
+Hello from node 1!

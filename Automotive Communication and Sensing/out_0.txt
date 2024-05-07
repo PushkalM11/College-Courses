@@ -1,0 +1,3 @@
+Node 0 received data at clock 32
+Message is:
+Hello from node 3!
